@@ -1,0 +1,35 @@
+
+-- 사용교재
+-- 사용교재고유번호(PK), 전체과목번호(FK), 전체교재고유번호(FK)
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 1, 1);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 2, 2);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 3, 3);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 4, 4);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 5, 5);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 6, 6);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 7, 7);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 8, 8);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 9, 9);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 10, 10);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 11, 11);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 12, 12);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 13, 13);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 14, 14);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 15, 15);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 16, 16);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 17, 17);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 18, 18);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 19, 19);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 20, 20);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 21, 21);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 22, 22);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 23, 23);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 24, 24);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 25, 25);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 26, 26);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 27, 27);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 28, 28);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 29, 29);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 30, 30);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 31, 31);
+INSERT INTO tblUsedBook VALUES(usedBookSeq.nextval, 32, 32);

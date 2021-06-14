@@ -1,0 +1,9 @@
+
+--강의실(6개)---------------------------------------------------------------------------
+--강의실고유번호, 강의실명, 강의상태, 수용인원
+INSERT INTO tblClassroom (CLASSROOMSEQ,NAME,CONDITION,LIMITCOUNT) VALUES(classroomSeq.nextval,'1강의실', '강의중' ,30);
+INSERT INTO tblClassroom (CLASSROOMSEQ,NAME,CONDITION,LIMITCOUNT) VALUES(classroomSeq.nextval,'2강의실', '강의중' ,30);
+INSERT INTO tblClassroom (CLASSROOMSEQ,NAME,CONDITION,LIMITCOUNT) VALUES(classroomSeq.nextval,'3강의실', '강의중' ,30);
+INSERT INTO tblClassroom (CLASSROOMSEQ,NAME,CONDITION,LIMITCOUNT) VALUES(classroomSeq.nextval,'4강의실', '강의중' ,26);
+INSERT INTO tblClassroom (CLASSROOMSEQ,NAME,CONDITION,LIMITCOUNT) VALUES(classroomSeq.nextval,'5강의실', '강의중' ,26);
+INSERT INTO tblClassroom (CLASSROOMSEQ,NAME,CONDITION,LIMITCOUNT) VALUES(classroomSeq.nextval,'6강의실', '강의중' ,26);

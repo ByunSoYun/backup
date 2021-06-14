@@ -1,0 +1,15 @@
+-- 개설과정
+
+--INSERT INTO tblOpenCourse VALUES(개설과정 고유번호(PK), 과정시작기간, 과정종료기간, 교육생 등록인원, 교사고유번호(FK), 전체과정고유번호(FK), 강의실 고유번호(FK), 개설과목 등록여부);
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2020-09-07', '2021-02-26', 30, 1, 1, 1, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2020-09-14', '2021-03-12', 30, 2, 2, 2, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-03-02', '2021-08-13', 30, 1, 1, 1, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-03-15', '2021-08-27', 30, 2, 2, 2, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-04-05', '2021-09-24', 30, 4, 3, 3, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-02-01', '2021-09-03', 26, 5, 4, 4, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-04-19', '2021-10-08', 26, 8, 5, 5, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-05-03', '2021-10-15', 26, 10, 6, 6, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-08-16', '2022-02-16', 25, 1, 7, 1, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-08-30', '2022-02-11', 20, 2, 8, 2, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-09-27', '2022-03-11', 21, 4, 9, 3, 'Y');
+INSERT INTO tblOpenCourse VALUES(openCourseSeq.nextval, '2021-09-06', '2022-02-25', 26, 5, 10, 4, 'Y');

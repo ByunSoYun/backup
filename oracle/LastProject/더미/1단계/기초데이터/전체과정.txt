@@ -1,0 +1,22 @@
+
+--전체과정---------------------------------------------------------------------------
+--과정고유번호, 과정명, 과정기간(5.5or6or7)
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'오픈플랫폼(아두이노)을 활용한 융합개발자 양성과정(A)', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Java 기반 임베디드 플랫폼 연동 융합 개발자 양성 과정', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'자바 기반 AWS 클라우드 활용 Full-Stack 개발자 양성 과정', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'JAVA를 활용한 웹 콘텐츠 양성과정', 7);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'데이터 분석기법을 활용한 데이터융합 개발자 양성과정(B)', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'자바기반 Full-stack 웹 개발자 양성과정(C)', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'자바 기반 융합형 SW개발자 양성과정' , 6);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Java를 활용한 멀티 플랫폼 융합 SW개발자 양성과정(C)', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'JAVA기반의 스마트 웹 앱콘텐츠 양성과정', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Java와 JavaScript library을 활용한 반응형 웹 개발자 양성과정', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Python과 Java 응용SW실무개발자 양성과정', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'파이썬과 자바를 연계한 머신러닝 활용 개발자 양성과정', 6);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Framework 기반의 빅데이터 활용 응용프로그래머', 7);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Java And JavaScript library를 활용한 반응형 웹 개발자 양성', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Python And Java를 활용한 AI 텍스트마이닝 개발자', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'웹기반 빅데이터 분석 응용SW개발자 양성과정', 6);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Java를 활용한 웹 응용SW개발자 양성과정', 5.5);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'Java And Python 기반 응용SW개발자 양성과정', 6);
+INSERT INTO tblTotalCourse(totalCourseSeq, name, period) VALUES (totalCourseSeq.nextval,'JAVA 기반의 스마트 웹 앱콘텐츠 양성과정', 7);

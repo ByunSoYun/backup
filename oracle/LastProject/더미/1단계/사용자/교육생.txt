@@ -1,0 +1,255 @@
+
+--교육생---------------------------------------------------------------------------
+--교육생더미(1~60 수강완료), 61~(현재교육생)
+--------수강완료 교육생 60명 ------------------------
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'현예규','010-8252-1359','2716495','2020-09-01','19920626','중도탈락', '2020-10-01');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'함철주','010-2747-2956','1279365','2020-09-01','19950709','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'신창숙','010-7242-2199','2672198','2020-09-01','19971211','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'백온용','010-5322-1378','1975648','2020-09-01','19981130','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'현부수','010-5095-4596','2593862','2020-09-01','19960325','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'조택환','010-6540-4455','1378214','2020-09-01','19941110','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'도숭형','010-5118-4990','2827659','2020-09-01','19940125','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'은학준','010-4136-2283','2659234','2020-09-01','19940617','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'정미란','010-8265-5000','1735914','2020-09-01','19910519','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'정채복','010-1477-2155','2483195','2020-09-01','19920416','수료완료', 'null');
+
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'고희안','010-5262-4788','1648319','2020-09-01','19971008','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'선균부','010-9535-2135','1158693','2020-09-01','19960514','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'오도윤','010-4756-3825','2213647','2020-09-01','19961115','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'방래남','010-1354-7541','2541673','2020-09-01','19970827','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'차남노','010-4485-9983','2914765','2020-09-01','19960802','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'변애다','010-7545-6632','1416259','2020-09-01','19970805','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'구종건','010-1754-5628','2964317','2020-09-01','19900806','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'인창택','010-1785-3354','1473569','2020-09-01','19960724','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'모애산','010-8851-4687','2781954','2020-09-01','19901210','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'양랑단','010-7732-2980','2315987','2020-09-01','19940518','수료완료', 'null');
+
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'주호희','010-7088-4432','2729813','2020-09-01','19940411','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'용람판','010-8351-3123','1975283','2020-09-01','19940607','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'제제권','010-7123-2088','2698245','2020-09-01','19901017','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'주섭잔','010-1955-1354','1798546','2020-09-01','19950217','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'손단형','010-7224-0852','1236195','2020-09-01','19971009','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'탁소섬','010-4534-8312','1624173','2020-09-01','19910921','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'정형위','010-7531-0853','2745962','2020-09-01','19941029','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'양옥상','010-3687-2020','1638745','2020-09-01','19970222','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'임만면','010-8870-2012','2819753','2020-09-01','19931020','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'변수늬','010-8805-1754','1289316','2020-09-01','19951209','수료완료', 'null');
+
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'진련양','010-6172-1046','2946137','2020-09-01','19911009','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'송선인','010-4404-7368','1836147','2020-09-01','19970605','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'유호루','010-4568-2288','2973218','2020-09-01','19911126','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'엄광곤','010-6960-7799','1249718','2020-09-01','19910102','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'표아훔','010-9881-6019','2864915','2020-09-01','19910407','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'원단비','010-7494-3877','2712465','2020-09-01','19900315','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'명악권','010-7583-5833','1713945','2020-09-01','19981212','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'여덕형','010-5093-1309','1192638','2020-09-01','19920713','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'모남창','010-1748-9187','2987234','2020-09-01','19910204','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'명초아','010-6353-1045','2864215','2020-09-01','19910202','중도탈락', '2020-11-08');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'방박사','010-8021-2441','2514682','2020-09-01','19940421','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'노박늘','010-6436-2159','1795412','2020-09-01','19921120','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'황민채','010-8144-6134','1216789','2020-09-01','19920417','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'설직부','010-4301-6409','1461983','2020-09-01','19971008','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'명단희','010-4718-8633','2591326','2020-09-01','19980215','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'선진동','010-8629-6711','2197826','2020-09-01','19951124','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'현무뜸','010-5864-2209','2354719','2020-09-01','19910726','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'기양철','010-2072-2895','2386749','2020-09-01','19900630','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'추천열','010-4135-9194','2853941','2020-09-01','19921129','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'구민번','010-3842-1519','1921385','2020-09-01','19960828','수료완료', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'최바두','010-7017-5106','1593471','2020-09-01','19960321','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'안숭길','010-5473-9238','2913467','2020-09-01','19970604','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'모비후','010-7444-6113','2315984','2020-09-01','19921203','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'안묵일','010-8396-6246','1587239','2020-09-01','19920901','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'편숭택','010-2375-9627','1172846','2020-09-01','19970701','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'양분미','010-6752-9407','1673942','2020-09-01','19980928','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'천담오','010-1527-8418','2264385','2020-09-01','19940625','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'심두이','010-6671-1306','2468713','2020-09-01','19960427','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'김울훈','010-5980-7443','2725186','2020-09-01','19920326','수료완료', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'남유래','010-5698-4185','2157496','2020-09-01','19940207','수료완료', 'null');
+
+---------현재 교육생 168명-----------------------------------------------------------------
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'모세심','010-1947-2199','1391752','2021-02-26','19910430','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'진춘별','010-5739-5530','1534871','2021-02-26','19910602','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'양으출','010-7461-8520','1763925','2021-02-26','19941129','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'남연평','010-6734-5373','2479261','2021-02-26','19950830','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'어진들','010-5990-1835','2896374','2021-02-26','19970726','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'석세창','010-8318-3962','1837245','2021-02-26','19980918','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'염길근','010-6400-2806','1735816','2021-02-26','19900130','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'윤보로','010-2470-1224','1972516','2021-02-26','19901225','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'신완엄','010-3467-9109','1628341','2021-02-26','19941001','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'추전설','010-2370-4937','1735916','2021-02-26','19910323','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'장부령','010-8110-1472','2572683','2021-02-26','19930715','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'소요수','010-3571-4060','2132476','2021-02-26','19960416','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'여담언','010-2960-6255','1386412','2021-02-26','19930919','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'변숙숭','010-1055-9440','1927318','2021-02-26','19981020','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'제익규','010-3414-6964','1452796','2021-02-26','19900815','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'천제중','010-8022-4547','1519243','2021-02-26','19920501','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'방중판','010-4945-4969','1425169','2021-02-26','19921018','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'기들리','010-7405-8429','2315478','2021-02-26','19950612','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'진민단','010-2171-1602','2436291','2021-02-26','19970827','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'인흥을','010-9900-1168','2817369','2021-02-26','19961230','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'엄세래','010-6172-1046','1971865','2021-02-26','19910404','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'고권빈','010-4404-7368','2138596','2021-02-26','19970223','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'한동두','010-4568-2288','1196258','2021-02-26','19900620','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'방원서','010-6960-7799','1326548','2021-02-26','19931023','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'성출건','010-9881-6019','1837694','2021-02-26','19941213','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'구준장','010-7494-3877','2479135','2021-02-26','19940822','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'전비평','010-7583-5833','1794263','2021-02-26','19900625','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'성건월','010-5093-1309','2986275','2021-02-26','19940518','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'명송대','010-1748-9187','2521387','2021-02-26','19910419','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'강도래','010-6353-1045','2194526','2021-02-26','19961228','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'차제율','010-8021-2441','2978246','2021-02-26','19981119','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'임향구','010-6436-2159','2915463','2021-02-26','19970322','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'안용준','010-8144-6134','1375286','2021-02-26','19970130','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'맹늘희','010-4301-6409','2359478','2021-02-26','19960127','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'도이뜸','010-4718-8633','2597821','2021-02-26','19940118','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'맹소새','010-8629-6711','1761239','2021-02-26','19950804','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'조혁솔','010-5864-2209','1859172','2021-02-26','19961101','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'도홍복','010-2072-2895','1853274','2021-02-26','19920609','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'강술루','010-4135-9194','1917325','2021-02-26','19961218','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'문흠창','010-3842-1519','1218745','2021-02-26','19950110','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'정용번','010-7017-5106','2182369','2021-02-26','19930823','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'맹자비','010-5473-9238','2926534','2021-02-26','19910216','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'박구은','010-7444-6113','2237894','2021-02-26','19940409','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'노미실','010-8396-6246','1539276','2021-02-26','19901030','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'황춘재','010-2375-9627','1743512','2021-02-26','19970624','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'나을가','010-6752-9407','1325841','2021-02-26','19970604','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'심창다','010-1527-8418','1948672','2021-02-26','19910103','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'김완래','010-6671-1306','1879532','2021-02-26','19940308','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'엄옥솔','010-5980-7443','2471362','2021-02-26','19920913','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'용사덕','010-5698-4185','2612593','2021-02-26','19960828','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'장철뜸','010-2955-3475','1935421','2021-02-26','19960629','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'국완신','010-9361-8688','1259681','2021-02-26','19900224','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'은전찬','010-7881-1707','1479186','2021-02-26','19920919','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'황자휘','010-3921-6096','2468319','2021-02-26','19960106','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'선혁엽','010-5416-2015','1495618','2021-02-26','19941022','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'선춘령','010-4578-8629','1965478','2021-02-26','19910619','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'주공소','010-9129-7589','2653894','2021-02-26','19961119','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'채훈잔','010-9878-5992','2274935','2021-02-26','19900901','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'곽봉치','010-1431-5380','1637819','2021-02-26','19960815','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'석열량','010-7894-2327','1619283','2021-02-26','19940809','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'추노여','010-8493-7098','1764238','2021-02-26','19930902','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'석송세','010-6691-3802','2941752','2021-02-26','19920602','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'최채겸','010-3648-8430','2278649','2021-02-26','19960718','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'여연동','010-5980-2678','1124395','2021-02-26','19981228','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'곽향성','010-4517-5324','1547261','2021-02-26','19911011','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'노늬술','010-5993-6959','1754296','2021-02-26','19920327','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'염충복','010-8938-1771','1324617','2021-02-26','19980923','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'추구탁','010-6031-9887','1279418','2021-02-26','19960107','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'차천고','010-1126-7288','2762854','2021-02-26','19900901','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'모복고','010-5166-6134','2987164','2021-02-26','19920929','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'변진직','010-8023-7482','1478695','2021-02-26','19981007','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'현월덕','010-7326-3780','2362975','2021-02-26','19960910','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'민걸여','010-6900-1602','1894625','2021-02-26','19941106','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'길이위','010-9430-9980','2527614','2021-02-26','19941230','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'인분선','010-4756-1972','1852763','2021-02-26','19900908','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'박강다','010-3520-8050','1287143','2021-02-26','19960828','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'윤빈악','010-2339-9292','1732145','2021-02-26','19960811','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'이정건','010-5921-7812','2176238','2021-02-26','19901020','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'지소림','010-8317-3167','2743612','2021-02-26','19981018','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'진자광','010-2422-9831','1431759','2021-02-26','19940408','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'염루탐','010-6596-9848','2492517','2021-02-26','19970826','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'신문요','010-2006-2363','1862413','2021-02-26','19951003','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'원섭량','010-5347-1093','2815374','2021-02-26','19951110','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'주들현','010-2028-2392','2937825','2021-02-26','19900812','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'채신관','010-6013-1105','2864715','2021-02-26','19910317','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'염개악','010-7169-1792','2819235','2021-02-26','19920927','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'민다번','010-7500-7809','2846927','2021-02-26','19950405','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'제인새','010-1425-1944','2389254','2021-02-26','19951220','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'권번려','010-8135-9274','2386714','2021-02-26','19960422','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'윤아흔','010-8462-4852','2697854','2021-02-26','19921202','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'기문비','010-7753-3868','2872549','2021-02-26','19940118','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'편열흔','010-1441-7122','2452136','2021-02-26','19960107','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'강사휴','010-8706-2282','2178563','2021-02-26','19910510','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'이성평','010-7568-4508','1159784','2021-02-26','19961007','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'육별중','010-9503-1990','2827316','2021-02-26','19960816','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'석비관','010-5722-3849','2567241','2021-02-26','19940421','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'왕령탁','010-4335-3201','2681945','2021-02-26','19961002','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'구판실','010-3372-6973','1986725','2021-02-26','19940808','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'조동승','010-8666-7114','1521968','2021-02-26','19920602','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'박석욱','010-1875-8713','2594216','2021-02-26','19961216','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'오용중','010-6590-8053','1852497','2021-02-26','19970218','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'함평자','010-4353-1121','2425893','2021-02-26','19950415','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'장회순','010-6156-7741','2159437','2021-02-26','19950112','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'위홍잔','010-2013-9394','1458761','2021-02-26','19940227','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'전다복','010-5148-1795','1632195','2021-02-26','19900312','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'곽완견','010-5704-6849','1587364','2021-02-26','19930821','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'은미초','010-1599-7805','1841637','2021-02-26','19960710','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'선민택','010-4120-9446','1967215','2021-02-26','19920312','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'서바상','010-7258-7238','1746831','2021-02-26','19910729','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'구효병','010-7998-6988','2962481','2021-02-26','19920215','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'정변슬','010-1970-7688','1741562','2021-02-26','19931017','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'국실일','010-8064-5263','2748615','2021-02-26','19900201','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'탁강손','010-5866-8025','1437961','2021-02-26','19910324','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'허후덕','010-2525-3917','2521489','2021-02-26','19900421','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'류묵화','010-2103-2921','1493721','2021-02-26','19950925','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'나수설','010-1094-2124','1452679','2021-02-26','19961108','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'윤숭균','010-5225-9397','2512879','2021-02-26','19900104','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'백학권','010-8663-2835','1942817','2021-02-26','19951204','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'최공선','010-6249-9961','1738654','2021-02-26','19920609','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'윤별려','010-3254-9666','1281349','2021-02-26','19940624','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'백택묵','010-4992-9764','1129378','2021-02-26','19950907','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'채아순','010-3519-1221','1896125','2021-02-26','19901104','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'윤항림','010-3987-2515','1735689','2021-02-26','19920105','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'노규안','010-5143-4154','2568312','2021-02-26','19900915','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'선시길','010-1680-3191','2874926','2021-02-26','19980413','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'정섭량','010-9757-2526','1386514','2021-02-26','19910110','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'여양한','010-1381-5505','1612973','2021-02-26','19950729','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'진황조','010-5563-9537','2581927','2021-02-26','19920102','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'노운화','010-9747-9650','2873159','2021-02-26','19900904','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'공반단','010-9046-5476','2923615','2021-02-26','19920906','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'길로효','010-8305-8374','2945763','2021-02-26','19960130','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'오훔판','010-2408-3509','2293687','2021-02-26','19910720','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'신열두','010-4587-1157','1237854','2021-02-26','19901218','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'변효복','010-6116-8954','2847536','2021-02-26','19980728','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'남위춘','010-9341-1255','2397812','2021-02-26','19980203','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'구무탁','010-8348-8664','2425981','2021-02-26','19981121','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'금루온','010-4198-2231','1784129','2021-02-26','19940603','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'전뜸타','010-5686-8941','2193748','2021-02-26','19910818','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'인솜길','010-2046-8520','2978152','2021-02-26','19900521','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'고다배','010-8727-5920','1529178','2021-02-26','19940525','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'맹율별','010-5891-8684','2423967','2021-02-26','19930702','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'변충근','010-5324-1944','2573896','2021-02-26','19930614','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'조모하','010-1256-2425','2826154','2021-02-26','19960412','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'노동웅','010-6936-4297','2732586','2021-02-26','19960808','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'구혁현','010-9993-9846','1362458','2021-02-26','19960927','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'엄여가','010-4199-7607','1193684','2021-02-26','19940917','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'임규분','010-2005-3501','1361284','2021-02-26','19930916','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'최부종','010-2177-4087','2539271','2021-02-26','19930918','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'서천만','010-4793-4900','1381296','2021-02-26','19921221','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'남윤늬','010-2306-6094','1425167','2021-02-26','19980726','수료중', 'null');
+                                    
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'성엄로','010-2454-8401','1463517','2021-02-26','19980720','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'양선익','010-1762-4567','2297864','2021-02-26','19970523','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'노옥량','010-1125-3123','2123564','2021-02-26','19970312','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'서흔나','010-7343-2004','1917632','2021-02-26','19910727','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'고일관','010-7670-1370','2769382','2021-02-26','19900415','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'왕채환','010-6092-7183','1931475','2021-02-26','19940116','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'마봉경','010-4471-4541','1241975','2021-02-26','19940426','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'엄탐애','010-3089-9405','1594168','2021-02-26','19971228','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'홍박섬','010-2213-1535','2759386','2021-02-26','19931018','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'함섭의','010-3632-3949','2532418','2021-02-26','19930820','수료중', 'null');
+
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'문선들','010-9627-6479','1971384','2021-02-26','19970118','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'조걸용','010-3271-2982','2732954','2021-02-26','19940522','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'하대혁','010-9206-1367','1425189','2021-02-26','19940503','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'길더호','010-7488-3914','2625894','2021-02-26','19950724','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'정덕디','010-5689-2808','2163594','2021-02-26','19941222','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'전희랑','010-3882-3752','1413526','2021-02-26','19930318','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'도로공','010-5942-8282','2249571','2021-02-26','19920222','수료중', 'null');
+INSERT INTO tblStudent VALUES (studentSeq.nextval,'어실덕','010-9560-3511','2231784','2021-02-26','19960407','수료중', 'null');

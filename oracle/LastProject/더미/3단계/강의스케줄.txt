@@ -1,0 +1,71 @@
+
+--강의스케줄
+--강의스케줄고유번호, 강의상태, 개설과목고유번호
+--1번과정, 1번선생님
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 1);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 2);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 3);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 4);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 5);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 6);
+
+--2번과정, 2번선생님
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 7);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 8);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 9);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 10);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 11);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 12);
+
+
+--3번과정, 1번선생님
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 13);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 14);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 15);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의중', 16);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 17);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 18);
+
+--4번과정, 2번선생님
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 19);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 20);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의중', 21);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 22);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 23);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 24);
+
+--5번과정, 4번선생님
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 25);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 26);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의중', 27);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 28);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 29);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 30);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 31);
+
+--6번과정, 5번선생님
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 32);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 33);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 34);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 35);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의중', 36);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 37);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 38);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 39);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 40);
+
+--7번과정, 8번선생님
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 41);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 42);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의중', 43);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 44);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 45);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 46);
+
+--8번과정, 10번선생님
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의종료', 47);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의중', 48);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 49);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 50);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 51);
+INSERT INTO tblLectureSchedule VALUES(lectureScheduleSeq.nextval, '강의예정', 52);

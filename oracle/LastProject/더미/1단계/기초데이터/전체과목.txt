@@ -1,0 +1,35 @@
+-- 전체과목 ---------------------------------------------------------------------------
+-- 전체과목고유번호, 과목명
+
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'JAVA 객체 지향 프로그래밍');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '오라클을 사용한 RDBMS의 SQL과 PL/SQL');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'Front-end 클라이언트 화면설계 및 구현');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'Back-end를 활용한 웹서버 구현');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '아두이노를 활용한 임베디드 프로그래밍');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '멀티 플랫폼 기반 융합 실무 프로젝트');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '클라우드 개발을 위한 자바 기초 프로그래밍');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '클라우드 시스템 개요 및 AWS 서비스 요소');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'AWS 클라우드 등록 설정 및 구축');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'Server Side 프로그래밍');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '지능형 웹을 위한 애플리케이션 구축');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '콘텐츠 추천 알고리즘 기법');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '데이터 분석기법 및 활용');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '공공 데이터 분석기법을 활용한 데이터 융합 프로젝트');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '임베디드 애플리케이션 구현');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '반응형 웹 개발기법');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '애플리케이션 테스트 수행');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '애플리케이션 배포');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'Java OpenJDK를 활용한 통합 프로젝트');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '데이터베이스 구현');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '데이터 저장을 위한 오라클 데이터베이스');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'NCS 소양교과');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '코틀린 프로그래밍');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '코틀린 안드로이드 프로그램 구현');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '코틀린 활용 안드로이드 모바일 프로젝트 제작');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'UML을 사용한 시스템 분석');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '형상관리');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '데스트 탑 UI/UX');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '웹킷 계열 브라우저 반응형 웹 UI/UX설계');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'Web Publishing을 위한 Front-End 설계 및 구현');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, '인공지능');
+insert into tblTotalSubject values (totalSubjectSeq.nextVal, 'Python');

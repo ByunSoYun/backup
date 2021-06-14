@@ -1,0 +1,135 @@
+-- 상담일지
+--INSERT INTO tblCounselingDiary VALUES(상담일지고유번호, 상담날짜, 내용, 수강신청고유번호);
+
+--종료과정,1강의실,1과정
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공, 수업 이해도: 상 , 과제 난이도: 상, 희망 기업: 백엔드 쪽으로 희망 함 ,희망 연봉: 4000 희망 함, 추가사항: 조장으로 팀원을 이끌어가는 리더쉽이 보이나 완벽을 추구함', 1 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공 , 수업 이해도: 중 , 과제 난이도: 하, 희망 기업: 아직 희망 취업 분야 없음, 희망 연봉: 3000만원 이상, 추가사항: 전문대 졸로 전공이긴 하나 이해도가 떨어짐', 2);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공 , 수업 이해도: 상, 과제 난이도:상, 희망 기업: 아직 희망 취업 분야 없음, 희망 연봉:3000 만원 이상, 추가사항: 비전공이나 이해도가 높고 자기주도 학습이 잘 이루어짐', 3 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도:중, 과제 난이도:중, 희망 기업: DB분야 ,희망 연봉: 2500만원, 추가사항: 수업을 잘 따라 옴', 4 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공 , 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 앱개발 분야 ,희망 연봉: 3000만원, 추가사항: 수업 참여도가 높고 질문에 대해 이해가 빠름', 5 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 하, 과제 난이도: 하, 희망 기업: 아직 희망 기업 없음, 희망 연봉: 2000만원 이상, 추가사항: 수업 진도에 빠르다고 느끼며 과제 제출에 매번 늦음', 6 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 상, 희망 기업: 공기업, 희망 연봉: 4000만원, 추가사항: 수업 참여도는 적으나 프로젝트 결과물이 상당히 좋음, 팀워크가 좋음', 7);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공, 수업 이해도: 상, 과제 난이도: 상, 희망 기업: 은행 ,희망 연봉: 3500만원이상, 추가사항: 프로젝트 설문조사때 기여도가 가장 큰 학생으로 리더쉽을 가짐', 8 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공 , 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 아직 희망 기업 없음, 희망 연봉: 희망 연봉 없음, 추가사항: 없음', 9 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 하, 과제 난이도 :하, 희망 기업: 아직 희망 기업 없음 , 희망 연봉: 2000만원 중반, 추가사항: 수업에 어려움을 느낌, 성향과 안맞는다고 생각함', 10 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 상, 과제 난이도: 중, 희망 기업: 소프트웨어 개발, 희망 연봉: 27000만원 이상, 추가사항: 수업참여도는 높으나 프로젝트때 비전공자의 한계를 느낌', 11 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 아직 희망기업 없음, 희망 연봉: 2000만원 초반, 추가사항: 없음 ', 12);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 상, 희망 기업: 아직 희망기업 없음, 희망 연봉: 3000만원 이상, 추가사항: 아르바이트로 인한 피로로 수업에 집중하기 어려운 환경이지만 질문과 상담으로 최선을 다 함', 13 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공, 수업 이해도: 상, 과제 난이도: 중, 희망 기업: 금융업 희망, 희망 연봉: 4000만원, 추가사항: 개념에 대한 이해도가 높으며  탐워크가 좋음', 14 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 앱개발, 희망 연봉: 3000만원 이상, 추가사항: 프로젝트로 인한 팀원 갈등으로 단체활동에 어려움을 느낌', 15 );
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 아직까지 이해 잘됨, 과제 난이도: 보통, 희망 기업: 중소기업, 희망 연봉: 3000만원, 추가사항: 대면수업을 희망함', 16);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 아직까지 무난, 과제 난이도: 무난, 희망 기업: 아직X, 희망 연봉: 2800이상, 추가사항: ', 17);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 수업은 따라갈만함, 과제 난이도: 응용 어려워함, 희망 기업: 아직X , 희망 연봉:X, 추가사항: 아르바이트 병행하고있음.', 18);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 응용문제 해결ok, 희망 기업: 중견기업 , 희망 연봉: 3500이상, 추가사항: 응용문제 많이 풀기를 희망함', 19);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 아직까지 이해 잘됨, 과제 난이도: 해결하는데 문제없음, 희망 기업: 은행관련기업, 희망 연봉: 3500만원, 추가사항: ', 20);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 응용문제는 좀 힘들어함, 희망 기업: 중소/중견기업 , 희망 연봉: 3000이상, 추가사항: 대면수업 늘리길 희망함', 21);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무난, 과제 난이도: 해결하는데 문제없음, 희망 기업: 아직X, 희망 연봉: X, 추가사항: 코딩에 재미를 붙였으나, 아직 정확한 진로를 못정함', 22);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 시간이 많이 걸리나 해결함, 희망 기업: 중소/중견기업 , 희망 연봉: 3000이상, 추가사항: 비전공자이지만 프로그래밍에 흥미를 가지고 배우러옴.', 23);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 해결하는데 문제없음, 희망 기업: 쌍용, 희망 연봉: 3800이상, 추가사항: 전공이 적성에 맞아 체계적으로 더 배우고 싶어 지원', 24);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 조금 힘들어함, 과제 난이도: 시간 투자에 비해 해결이 잘 안됨, 희망 기업: X , 희망 연봉: X, 추가사항: 문제풀이에 있어 많이 힘들어함. 응용 문제 풀이 설명 원함.', 25);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 네이버, 희망 연봉: 3800이상, 추가사항: 임베디드에 관심이 많음', 26);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 삼성, 희망 연봉: 3800이상, 추가사항: ', 27);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 무리없음, 과제 난이도: 아직까지 무난, 희망 기업: 임베디드관련기업, 희망 연봉: 3000이상, 추가사항: 코드리뷰 시간 늘리길 원함.', 28);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 무리없음, 과제 난이도: 응용문제(상)빼고는 괜찮음, 희망 기업: 웹페이지관리 , 희망 연봉: X, 추가사항: 문제풀이 많이 하길 원함.', 29);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 전산직분야, 희망 연봉: 3500이상, 추가사항: ', 30);
+
+
+--종료과정,2강의실,2과정
+
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공, 수업 이해도: 상 , 과제 난이도: 상, 희망 기업: 백엔드 쪽으로 희망 함 ,희망 연봉: 4000 희망 함, 추가사항: 조장으로 팀원을 이끌어가는 리더쉽이 보이나 완벽을 추구함', 31);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공 , 수업 이해도: 중 , 과제 난이도: 하, 희망 기업: 아직 희망 취업 분야 없음, 희망 연봉: 3000만원 이상, 추가사항: 전문대 졸로 전공이긴 하나 이해도가 떨어짐', 32);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공 , 수업 이해도: 상, 과제 난이도:상, 희망 기업: 아직 희망 취업 분야 없음, 희망 연봉:3000 만원 이상, 추가사항: 비전공이나 이해도가 높고 자기주도 학습이 잘 이루어짐', 33);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도:중, 과제 난이도:중, 희망 기업: DB분야 ,희망 연봉: 2500만원, 추가사항: 수업을 잘 따라 옴', 34);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공 , 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 앱개발 분야 ,희망 연봉: 3000만원, 추가사항: 수업 참여도가 높고 질문에 대해 이해가 빠름', 35);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 하, 과제 난이도: 하, 희망 기업: 아직 희망 기업 없음, 희망 연봉: 2000만원 이상, 추가사항: 수업 진도에 빠르다고 느끼며 과제 제출에 매번 늦음', 36);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 상, 희망 기업: 공기업, 희망 연봉: 4000만원, 추가사항: 수업 참여도는 적으나 프로젝트 결과물이 상당히 좋음, 팀워크가 좋음', 37);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공, 수업 이해도: 상, 과제 난이도: 상, 희망 기업: 은행 ,희망 연봉: 3500만원이상, 추가사항: 프로젝트 설문조사때 기여도가 가장 큰 학생으로 리더쉽을 가짐', 38);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공 , 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 아직 희망 기업 없음, 희망 연봉: 희망 연봉 없음, 추가사항: 없음', 39);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 하, 과제 난이도 :하, 희망 기업: 아직 희망 기업 없음 , 희망 연봉: 2000만원 중반, 추가사항: 수업에 어려움을 느낌, 성향과 안맞는다고 생각함', 40);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 상, 과제 난이도: 중, 희망 기업: 소프트웨어 개발, 희망 연봉: 27000만원 이상, 추가사항: 수업참여도는 높으나 프로젝트때 비전공자의 한계를 느낌', 41);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 아직 희망기업 없음, 희망 연봉: 2000만원 초반, 추가사항: 없음 ', 42);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 상, 희망 기업: 아직 희망기업 없음, 희망 연봉: 3000만원 이상, 추가사항: 아르바이트로 인한 피로로 수업에 집중하기 어려운 환경이지만 질문과 상담으로 최선을 다 함', 43);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 전공, 수업 이해도: 상, 과제 난이도: 중, 희망 기업: 금융업 희망, 희망 연봉: 4000만원, 추가사항: 개념에 대한 이해도가 높으며  탐워크가 좋음', 44);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-07', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 앱개발, 희망 연봉: 3000만원 이상, 추가사항: 프로젝트로 인한 팀원 갈등으로 단체활동에 어려움을 느낌', 45);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 아직까지 이해 잘됨, 과제 난이도: 보통, 희망 기업: 중소기업, 희망 연봉: 3000만원, 추가사항: 대면수업을 희망함', 46);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 아직까지 무난, 과제 난이도: 무난, 희망 기업: 아직X, 희망 연봉: 2800이상, 추가사항: ', 47);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 수업은 따라갈만함, 과제 난이도: 응용 어려워함, 희망 기업: 아직X , 희망 연봉:X, 추가사항: 아르바이트 병행하고있음.', 48);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 응용문제 해결ok, 희망 기업: 중견기업 , 희망 연봉: 3500이상, 추가사항: 응용문제 많이 풀기를 희망함', 49);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 아직까지 이해 잘됨, 과제 난이도: 해결하는데 문제없음, 희망 기업: 은행관련기업, 희망 연봉: 3500만원, 추가사항: ', 50);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 응용문제는 좀 힘들어함, 희망 기업: 중소/중견기업 , 희망 연봉: 3000이상, 추가사항: 대면수업 늘리길 희망함', 51);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무난, 과제 난이도: 해결하는데 문제없음, 희망 기업: 아직X, 희망 연봉: X, 추가사항: 코딩에 재미를 붙였으나, 아직 정확한 진로를 못정함', 52);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 시간이 많이 걸리나 해결함, 희망 기업: 중소/중견기업 , 희망 연봉: 3000이상, 추가사항: 비전공자이지만 프로그래밍에 흥미를 가지고 배우러옴.', 53);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 해결하는데 문제없음, 희망 기업: 쌍용, 희망 연봉: 3800이상, 추가사항: 전공이 적성에 맞아 체계적으로 더 배우고 싶어 지원', 54);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 조금 힘들어함, 과제 난이도: 시간 투자에 비해 해결이 잘 안됨, 희망 기업: X , 희망 연봉: X, 추가사항: 문제풀이에 있어 많이 힘들어함. 응용 문제 풀이 설명 원함.', 55);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 네이버, 희망 연봉: 3800이상, 추가사항: 임베디드에 관심이 많음', 56);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 삼성, 희망 연봉: 3800이상, 추가사항: ', 57);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 무리없음, 과제 난이도: 아직까지 무난, 희망 기업: 임베디드관련기업, 희망 연봉: 3000이상, 추가사항: 코드리뷰 시간 늘리길 원함.', 58);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 비전공자, 수업 이해도: 무리없음, 과제 난이도: 응용문제(상)빼고는 괜찮음, 희망 기업: 웹페이지관리 , 희망 연봉: X, 추가사항: 문제풀이 많이 하길 원함.', 59);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2020-10-08', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 전산직분야, 희망 연봉: 3500이상, 추가사항: ', 60);
+
+
+--진행중인과정,1강의실,3과정
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공, 수업 이해도: 상 , 과제 난이도: 상, 희망 기업: 백엔드 쪽으로 희망 함 ,희망 연봉: 4000 희망 함, 추가사항: 조장으로 팀원을 이끌어가는 리더쉽이 보이나 완벽을 추구함', 61);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공 , 수업 이해도: 중 , 과제 난이도: 하, 희망 기업: 아직 희망 취업 분야 없음, 희망 연봉: 3000만원 이상, 추가사항: 전문대 졸로 전공이긴 하나 이해도가 떨어짐', 62);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공 , 수업 이해도: 상, 과제 난이도:상, 희망 기업: 아직 희망 취업 분야 없음, 희망 연봉:3000 만원 이상, 추가사항: 비전공이나 이해도가 높고 자기주도 학습이 잘 이루어짐', 63);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공, 수업 이해도:중, 과제 난이도:중, 희망 기업: DB분야 ,희망 연봉: 2500만원, 추가사항: 수업을 잘 따라 옴', 64);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공 , 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 앱개발 분야 ,희망 연봉: 3000만원, 추가사항: 수업 참여도가 높고 질문에 대해 이해가 빠름', 65);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공, 수업 이해도: 하, 과제 난이도: 하, 희망 기업: 아직 희망 기업 없음, 희망 연봉: 2000만원 이상, 추가사항: 수업 진도에 빠르다고 느끼며 과제 제출에 매번 늦음', 66);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 상, 희망 기업: 공기업, 희망 연봉: 4000만원, 추가사항: 수업 참여도는 적으나 프로젝트 결과물이 상당히 좋음, 팀워크가 좋음', 67);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공, 수업 이해도: 상, 과제 난이도: 상, 희망 기업: 은행 ,희망 연봉: 3500만원이상, 추가사항: 프로젝트 설문조사때 기여도가 가장 큰 학생으로 리더쉽을 가짐', 68);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공 , 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 아직 희망 기업 없음, 희망 연봉: 희망 연봉 없음, 추가사항: 없음', 69);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공, 수업 이해도: 하, 과제 난이도 :하, 희망 기업: 아직 희망 기업 없음 , 희망 연봉: 2000만원 중반, 추가사항: 수업에 어려움을 느낌, 성향과 안맞는다고 생각함', 70);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공, 수업 이해도: 상, 과제 난이도: 중, 희망 기업: 소프트웨어 개발, 희망 연봉: 27000만원 이상, 추가사항: 수업참여도는 높으나 프로젝트때 비전공자의 한계를 느낌', 71);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 아직 희망기업 없음, 희망 연봉: 2000만원 초반, 추가사항: 없음 ', 72);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 상, 희망 기업: 아직 희망기업 없음, 희망 연봉: 3000만원 이상, 추가사항: 아르바이트로 인한 피로로 수업에 집중하기 어려운 환경이지만 질문과 상담으로 최선을 다 함', 73);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공, 수업 이해도: 상, 과제 난이도: 중, 희망 기업: 금융업 희망, 희망 연봉: 4000만원, 추가사항: 개념에 대한 이해도가 높으며  탐워크가 좋음', 74);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 앱개발, 희망 연봉: 3000만원 이상, 추가사항: 프로젝트로 인한 팀원 갈등으로 단체활동에 어려움을 느낌', 75);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공자, 수업 이해도: 아직까지 이해 잘됨, 과제 난이도: 보통, 희망 기업: 중소기업, 희망 연봉: 3000만원, 추가사항: 대면수업을 희망함', 76);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공자, 수업 이해도: 아직까지 무난, 과제 난이도: 무난, 희망 기업: 아직X, 희망 연봉: 2800이상, 추가사항: ', 77);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공자, 수업 이해도: 수업은 따라갈만함, 과제 난이도: 응용 어려워함, 희망 기업: 아직X , 희망 연봉:X, 추가사항: 아르바이트 병행하고있음.', 78);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 응용문제 해결ok, 희망 기업: 중견기업 , 희망 연봉: 3500이상, 추가사항: 응용문제 많이 풀기를 희망함', 79);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공자, 수업 이해도: 아직까지 이해 잘됨, 과제 난이도: 해결하는데 문제없음, 희망 기업: 은행관련기업, 희망 연봉: 3500만원, 추가사항: ', 80);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 응용문제는 좀 힘들어함, 희망 기업: 중소/중견기업 , 희망 연봉: 3000이상, 추가사항: 대면수업 늘리길 희망함', 81);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공자, 수업 이해도: 무난, 과제 난이도: 해결하는데 문제없음, 희망 기업: 아직X, 희망 연봉: X, 추가사항: 코딩에 재미를 붙였으나, 아직 정확한 진로를 못정함', 82);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 시간이 많이 걸리나 해결함, 희망 기업: 중소/중견기업 , 희망 연봉: 3000이상, 추가사항: 비전공자이지만 프로그래밍에 흥미를 가지고 배우러옴.', 83);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 해결하는데 문제없음, 희망 기업: 쌍용, 희망 연봉: 3800이상, 추가사항: 전공이 적성에 맞아 체계적으로 더 배우고 싶어 지원', 84);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공자, 수업 이해도: 조금 힘들어함, 과제 난이도: 시간 투자에 비해 해결이 잘 안됨, 희망 기업: X , 희망 연봉: X, 추가사항: 문제풀이에 있어 많이 힘들어함. 응용 문제 풀이 설명 원함.', 85);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 네이버, 희망 연봉: 3800이상, 추가사항: 임베디드에 관심이 많음', 86);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 삼성, 희망 연봉: 3800이상, 추가사항: ', 87);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공자, 수업 이해도: 무리없음, 과제 난이도: 아직까지 무난, 희망 기업: 임베디드관련기업, 희망 연봉: 3000이상, 추가사항: 코드리뷰 시간 늘리길 원함.', 88);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 비전공자, 수업 이해도: 무리없음, 과제 난이도: 응용문제(상)빼고는 괜찮음, 희망 기업: 웹페이지관리 , 희망 연봉: X, 추가사항: 문제풀이 많이 하길 원함.', 89);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-02', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 전산직분야, 희망 연봉: 3500이상, 추가사항: ', 90);
+
+--진행중인과정,2강의실,4과정
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공, 수업 이해도: 상 , 과제 난이도: 상, 희망 기업: 백엔드 쪽으로 희망 함 ,희망 연봉: 4000 희망 함, 추가사항: 조장으로 팀원을 이끌어가는 리더쉽이 보이나 완벽을 추구함', 91);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공 , 수업 이해도: 중 , 과제 난이도: 하, 희망 기업: 아직 희망 취업 분야 없음, 희망 연봉: 3000만원 이상, 추가사항: 전문대 졸로 전공이긴 하나 이해도가 떨어짐', 92);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공 , 수업 이해도: 상, 과제 난이도:상, 희망 기업: 아직 희망 취업 분야 없음, 희망 연봉:3000 만원 이상, 추가사항: 비전공이나 이해도가 높고 자기주도 학습이 잘 이루어짐', 93);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공, 수업 이해도:중, 과제 난이도:중, 희망 기업: DB분야 ,희망 연봉: 2500만원, 추가사항: 수업을 잘 따라 옴', 94);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공 , 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 앱개발 분야 ,희망 연봉: 3000만원, 추가사항: 수업 참여도가 높고 질문에 대해 이해가 빠름', 95);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공, 수업 이해도: 하, 과제 난이도: 하, 희망 기업: 아직 희망 기업 없음, 희망 연봉: 2000만원 이상, 추가사항: 수업 진도에 빠르다고 느끼며 과제 제출에 매번 늦음', 96);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 상, 희망 기업: 공기업, 희망 연봉: 4000만원, 추가사항: 수업 참여도는 적으나 프로젝트 결과물이 상당히 좋음, 팀워크가 좋음', 97);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공, 수업 이해도: 상, 과제 난이도: 상, 희망 기업: 은행 ,희망 연봉: 3500만원이상, 추가사항: 프로젝트 설문조사때 기여도가 가장 큰 학생으로 리더쉽을 가짐', 98);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공 , 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 아직 희망 기업 없음, 희망 연봉: 희망 연봉 없음, 추가사항: 없음', 99);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공, 수업 이해도: 하, 과제 난이도 :하, 희망 기업: 아직 희망 기업 없음 , 희망 연봉: 2000만원 중반, 추가사항: 수업에 어려움을 느낌, 성향과 안맞는다고 생각함', 100);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공, 수업 이해도: 상, 과제 난이도: 중, 희망 기업: 소프트웨어 개발, 희망 연봉: 2700만원 이상, 추가사항: 수업참여도는 높으나 프로젝트때 비전공자의 한계를 느낌', 101);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 아직 희망기업 없음, 희망 연봉: 2000만원 초반, 추가사항: 없음 ', 102);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 상, 희망 기업: 아직 희망기업 없음, 희망 연봉: 3000만원 이상, 추가사항: 아르바이트로 인한 피로로 수업에 집중하기 어려운 환경이지만 질문과 상담으로 최선을 다 함', 103);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공, 수업 이해도: 상, 과제 난이도: 중, 희망 기업: 금융업 희망, 희망 연봉: 4000만원, 추가사항: 개념에 대한 이해도가 높으며  탐워크가 좋음', 104);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공, 수업 이해도: 중, 과제 난이도: 중, 희망 기업: 앱개발, 희망 연봉: 3000만원 이상, 추가사항: 프로젝트로 인한 팀원 갈등으로 단체활동에 어려움을 느낌', 105);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공자, 수업 이해도: 아직까지 이해 잘됨, 과제 난이도: 보통, 희망 기업: 중소기업, 희망 연봉: 3000만원, 추가사항: 대면수업을 희망함', 106);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공자, 수업 이해도: 아직까지 무난, 과제 난이도: 무난, 희망 기업: 아직X, 희망 연봉: 2800이상, 추가사항: ', 107);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공자, 수업 이해도: 수업은 따라갈만함, 과제 난이도: 응용 어려워함, 희망 기업: 아직X , 희망 연봉:X, 추가사항: 아르바이트 병행하고있음.', 108);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 응용문제 해결ok, 희망 기업: 중견기업 , 희망 연봉: 3500이상, 추가사항: 응용문제 많이 풀기를 희망함', 109);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공자, 수업 이해도: 아직까지 이해 잘됨, 과제 난이도: 해결하는데 문제없음, 희망 기업: 은행관련기업, 희망 연봉: 3500만원, 추가사항: ', 110);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 응용문제는 좀 힘들어함, 희망 기업: 중소/중견기업 , 희망 연봉: 3000이상, 추가사항: 대면수업 늘리길 희망함', 111);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공자, 수업 이해도: 무난, 과제 난이도: 해결하는데 문제없음, 희망 기업: 아직X, 희망 연봉: X, 추가사항: 코딩에 재미를 붙였으나, 아직 정확한 진로를 못정함', 112);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공자, 수업 이해도: 무리없이 따라옴, 과제 난이도: 시간이 많이 걸리나 해결함, 희망 기업: 중소/중견기업 , 희망 연봉: 3000이상, 추가사항: 비전공자이지만 프로그래밍에 흥미를 가지고 배우러옴.', 113);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 해결하는데 문제없음, 희망 기업: 쌍용, 희망 연봉: 3800이상, 추가사항: 전공이 적성에 맞아 체계적으로 더 배우고 싶어 지원', 114);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공자, 수업 이해도: 조금 힘들어함, 과제 난이도: 시간 투자에 비해 해결이 잘 안됨, 희망 기업: X , 희망 연봉: X, 추가사항: 문제풀이에 있어 많이 힘들어함. 응용 문제 풀이 설명 원함.', 115);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 네이버, 희망 연봉: 3800이상, 추가사항: 임베디드에 관심이 많음', 116);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 삼성, 희망 연봉: 3800이상, 추가사항: ', 117);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공자, 수업 이해도: 무리없음, 과제 난이도: 아직까지 무난, 희망 기업: 임베디드관련기업, 희망 연봉: 3000이상, 추가사항: 코드리뷰 시간 늘리길 원함.', 118);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 비전공자, 수업 이해도: 무리없음, 과제 난이도: 응용문제(상)빼고는 괜찮음, 희망 기업: 웹페이지관리 , 희망 연봉: X, 추가사항: 문제풀이 많이 하길 원함.', 119);
+INSERT INTO tblCounselingDiary VALUES(counselingDiarySeq.nextval, '2021-04-15', '전공/비전공: 전공자, 수업 이해도: 무리없음, 과제 난이도: 무난, 희망 기업: 전산직분야, 희망 연봉: 3500이상, 추가사항: ', 120);
+
+

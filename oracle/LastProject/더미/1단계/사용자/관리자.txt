@@ -1,0 +1,7 @@
+-- 관리자: 5명---------------------------------------------------------------------------
+-- 관리자고유번호, 비밀번호
+INSERT INTO tblManager (managerSeq, managerPW) values (managerSeq.nextVal, '1122334');
+INSERT INTO tblManager (managerSeq, managerPW) values (managerSeq.nextVal, '2432511');
+INSERT INTO tblManager (managerSeq, managerPW) values (managerSeq.nextVal, '1111111');
+INSERT INTO tblManager (managerSeq, managerPW) values (managerSeq.nextVal, '2222222');
+INSERT INTO tblManager (managerSeq, managerPW) values (managerSeq.nextVal, '3333333');

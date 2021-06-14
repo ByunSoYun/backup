@@ -1,0 +1,112 @@
+
+--시험문제
+--INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 시험문제, 답, 시험지등록번호);
+
+--종료 1강의실
+-- java
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. System.out.print("10 + 20 = " + 10 + 20);', 'X', 1);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. System.out.print(010);', 'O', 1);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. 시각 - 시각의 결과는 시간이다.', 'O', 1);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. 자바의 index는 1부터 시작한다.', 'X', 1);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q5. indexOf() 메소드는 검색어의 위치를 반환한다.', 'O', 1);
+
+-- 오라클
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. tblInsa. 입사일이 빠른 순서로 5순위까지만 가져오시오.', 'select name, ibsadate, rownum from(select name, ibsadate from tblinsa order by ibsadate asc)where rownum <= "5";', 2);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. tblAddressBook. 전화번호에 123이 들어간 사람 중 여학생만을 가져오시오.', 'select * from tbladdressbook where tel like "%123%" and gender = "f";', 2);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. tblAddressBook. 관리자의 실수로 몇몇 사람들의 이메일 주소가 중복되었다. 중복된 이메일 주소만 가져오시오.', 'select email from tbladdressbook group by email having count(*) >= 2', 2);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. tblAddressBook. 현재 주소(address)와 고향(hometown)이 같은 지역인 사람들을 가져오시오.', 'select * from tbladdressbook where address like "%"||hometown||"%" ', 2);
+
+-- 백엔드
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q1. Get과 Post 차이점?', '-Get:주로 웹 브라우저가 웹 서버에 데이터를 요청할 때 사용 -Post:는 웹 브라우저가 웹 서버에 데이터를 전달하기 위해 사용.', 3);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q2. Session과 Cookie 사용 이유', '- Session에 관련된 데이터는 Server에 저장된다. - 사용자 정보를 유지할 수 없다는 HTTP의 한계를 극복할 수 있는 방법', 3);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q3. MVC란?', '- MVC 패턴은 목적 코드의 재사용에 유용한 것은 물론, 사용자 인터페이스와 응용프로그램 개발에 소요되는 시간을 현저하게 줄여주는 형식이라고 많은 개발자들이 평가하고 있다.', 3);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. Singleton Design Patter(싱글톤 디자인 패턴, 싱글톤 패턴)이란?', '- 클래스 인스턴스가 하나만 만들어지도록 하고, 그 인스턴스에 대한 전역 접근을 제공한다.', 3);
+
+-- 아두이노를 활용한 임베디드 프로그래밍
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. ALU의 Full Name은 무엇인가?', 'Arthmetic Lojic Unit', 4);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. SoC(System On chip)에 대해 설명하시오', '하나의 집적회로에 집적된 컴퓨터나 전자 시스템 부품들을 가르킨다.', 4);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. 임베디드란 무엇인가?', '임베디드란 PC이외의 장비에 사용되는 칩을 말한다.', 4);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. 임베디드 시스템에는 어떤 프로세서 코어가 장착될수 있는지 설명하시오', '마이크로컨트롤러, DSP', 4);
+
+-- java
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. System.out.print("10 + 20 = " + 10 + 20);', 'X', 5);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. System.out.print(010);', 'O', 5);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. 시각 - 시각의 결과는 시간이다.', 'O', 5);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. 자바의 index는 1부터 시작한다.', 'X', 5);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q5. indexOf() 메소드는 검색어의 위치를 반환한다.', 'O', 5);
+
+-- 오라클
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. tblInsa. 입사일이 빠른 순서로 5순위까지만 가져오시오.', 'select name, ibsadate, rownum from(select name, ibsadate from tblinsa order by ibsadate asc)where rownum <= "5";', 6);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. tblAddressBook. 전화번호에 123이 들어간 사람 중 여학생만을 가져오시오.', 'select * from tbladdressbook where tel like "%123%" and gender = "f";', 6);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. tblAddressBook. 관리자의 실수로 몇몇 사람들의 이메일 주소가 중복되었다. 중복된 이메일 주소만 가져오시오.', 'select email from tbladdressbook group by email having count(*) >= 2', 6);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. tblAddressBook. 현재 주소(address)와 고향(hometown)이 같은 지역인 사람들을 가져오시오.', 'select * from tbladdressbook where address like "%"||hometown||"%" ', 6);
+
+--종료 2강의실
+--java
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. 명시적인 형변환은 항상 안전하다.', 'X', 7);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. 대입 연산자는 우선 순위가 가장 낮다.', 'O', 7);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. float는 실수형이고, 4byte의 크기를 가진다.', 'X', 7);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. int는 실수형이고, 8byte의 크기를 가진다.', 'O', 7);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q5. long을 float로 형변환할 때 암시적인 형변환이 일어난다.', 'O', 7);
+
+--오라클
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. tblInsa. 입사일이 빠른 순서로 5순위까지만 가져오시오.', 'select name, ibsadate, rownum from(select name, ibsadate from tblinsa order by ibsadate asc)where rownum <= "5";', 8);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. tblAddressBook. 전화번호에 123이 들어간 사람 중 여학생만을 가져오시오.', 'select * from tbladdressbook where tel like "%123%" and gender = "f";', 8);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. tblAddressBook. 관리자의 실수로 몇몇 사람들의 이메일 주소가 중복되었다. 중복된 이메일 주소만 가져오시오.', 'select email from tbladdressbook group by email having count(*) >= 2', 8);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. tblAddressBook. 현재 주소(address)와 고향(hometown)이 같은 지역인 사람들을 가져오시오.', 'select * from tbladdressbook where address like "%"||hometown||"%" ', 8);
+
+--프론트엔드
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. CSS 전처리(CSS preprocessors)설명과 장단점?','[장점]재사용성: 공통 요소를 변수 또는 함수, 믹스인으로 만들어 재사용할 수 있다.[단점] 전처리기를 위한 도구(컴파일러) 필요', 9);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. CSS Selector가 어떠한 원리로 동작하는지 설명', '브라우저는 선택자를 오른쪽 키 선택자부터 왼쪽으로 일치시킨다. 선택자에 따라 DOM의 요소를 필터링하고 부모요소를 검사해 일치하는지 본다.', 9);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. UI와 UX의 차이점을 설명해보세요.', 'UI: 사용자가 제품/서비스와 상호작용할 수 있도록 만들어진 매개체. UX:사용자가 만족할 수 있도록 사용자 중심적으로 설계된 디자인', 9);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. XSS(Cross-site scripting)를 설명해보세요.', '특정 javascript 구문을 client side에서 hacker가 원하는 시점에 실행시키는 공격이다.', 9);
+
+--java
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. 명시적인 형변환은 항상 안전하다.', 'X', 10);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. 대입 연산자는 우선 순위가 가장 낮다.', 'O', 10);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. float는 실수형이고, 4byte의 크기를 가진다.', 'X', 10);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. int는 실수형이고, 8byte의 크기를 가진다.', 'O', 10);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q5. long을 float로 형변환할 때 암시적인 형변환이 일어난다.', 'O', 10);
+
+--오라클
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. tblInsa. 입사일이 빠른 순서로 5순위까지만 가져오시오.', 'select name, ibsadate, rownum from(select name, ibsadate from tblinsa order by ibsadate asc)where rownum <= "5";', 11);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. tblAddressBook. 전화번호에 123이 들어간 사람 중 여학생만을 가져오시오.', 'select * from tbladdressbook where tel like "%123%" and gender = "f";', 11);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. tblAddressBook. 관리자의 실수로 몇몇 사람들의 이메일 주소가 중복되었다. 중복된 이메일 주소만 가져오시오.', 'select email from tbladdressbook group by email having count(*) >= 2', 11);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. tblAddressBook. 현재 주소(address)와 고향(hometown)이 같은 지역인 사람들을 가져오시오.', 'select * from tbladdressbook where address like "%"||hometown||"%" ', 11);
+
+--프론트엔드
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. CSS 전처리(CSS preprocessors)설명과 장단점?','[장점]재사용성: 공통 요소를 변수 또는 함수, 믹스인으로 만들어 재사용할 수 있다.[단점] 전처리기를 위한 도구(컴파일러) 필요', 12);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. CSS Selector가 어떠한 원리로 동작하는지 설명', '브라우저는 선택자를 오른쪽 키 선택자부터 왼쪽으로 일치시킨다. 선택자에 따라 DOM의 요소를 필터링하고 부모요소를 검사해 일치하는지 본다.', 12);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. UI와 UX의 차이점을 설명해보세요.', 'UI: 사용자가 제품/서비스와 상호작용할 수 있도록 만들어진 매개체. UX:사용자가 만족할 수 있도록 사용자 중심적으로 설계된 디자인', 12);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. XSS(Cross-site scripting)를 설명해보세요.', '특정 javascript 구문을 client side에서 hacker가 원하는 시점에 실행시키는 공격이다.', 12);
+
+
+
+--3강의실
+-- java
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. System.out.print("10 + 20 = " + 10 + 20);', 'X', 13);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. System.out.print(010);', 'O', 13);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. 시각 - 시각의 결과는 시간이다.', 'O', 13);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. 자바의 index는 1부터 시작한다.', 'X', 13);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q5. indexOf() 메소드는 검색어의 위치를 반환한다.', 'O', 13);
+
+-- 오라클
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q1. tblInsa. 입사일이 빠른 순서로 5순위까지만 가져오시오.', 'select name, ibsadate, rownum from(select name, ibsadate from tblinsa order by ibsadate asc)where rownum <= "5";', 14);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q2. tblAddressBook. 전화번호에 123이 들어간 사람 중 여학생만을 가져오시오.', 'select * from tbladdressbook where tel like "%123%" and gender = "f";', 14);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q3. tblAddressBook. 관리자의 실수로 몇몇 사람들의 이메일 주소가 중복되었다. 중복된 이메일 주소만 가져오시오.', 'select email from tbladdressbook group by email having count(*) >= 2', 14);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. tblAddressBook. 현재 주소(address)와 고향(hometown)이 같은 지역인 사람들을 가져오시오.', 'select * from tbladdressbook where address like "%"||hometown||"%" ', 14);
+
+-- 백엔드
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q1. Get과 Post 차이점?', '-Get:주로 웹 브라우저가 웹 서버에 데이터를 요청할 때 사용 -Post:는 웹 브라우저가 웹 서버에 데이터를 전달하기 위해 사용.', 15);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q2. Session과 Cookie 사용 이유', '- Session에 관련된 데이터는 Server에 저장된다. - 사용자 정보를 유지할 수 없다는 HTTP의 한계를 극복할 수 있는 방법', 15);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q3. MVC란?', '- MVC 패턴은 목적 코드의 재사용에 유용한 것은 물론, 사용자 인터페이스와 응용프로그램 개발에 소요되는 시간을 현저하게 줄여주는 형식이라고 많은 개발자들이 평가하고 있다.', 15);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. Singleton Design Patter(싱글톤 디자인 패턴, 싱글톤 패턴)이란?', '- 클래스 인스턴스가 하나만 만들어지도록 하고, 그 인스턴스에 대한 전역 접근을 제공한다.', 15);
+
+-- 백엔드
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q1. Get과 Post 차이점?', '-Get:주로 웹 브라우저가 웹 서버에 데이터를 요청할 때 사용 -Post:는 웹 브라우저가 웹 서버에 데이터를 전달하기 위해 사용.', 16);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q2. Session과 Cookie 사용 이유', '- Session에 관련된 데이터는 Server에 저장된다. - 사용자 정보를 유지할 수 없다는 HTTP의 한계를 극복할 수 있는 방법', 16);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval,'Q3. MVC란?', '- MVC 패턴은 목적 코드의 재사용에 유용한 것은 물론, 사용자 인터페이스와 응용프로그램 개발에 소요되는 시간을 현저하게 줄여주는 형식이라고 많은 개발자들이 평가하고 있다.', 16);
+INSERT INTO tblTestQuestion VALUES(testQuestionSeq.nextval, 'Q4. Singleton Design Patter(싱글톤 디자인 패턴, 싱글톤 패턴)이란?', '- 클래스 인스턴스가 하나만 만들어지도록 하고, 그 인스턴스에 대한 전역 접근을 제공한다.', 16);
+
+
+

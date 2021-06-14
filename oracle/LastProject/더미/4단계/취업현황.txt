@@ -1,0 +1,68 @@
+--취업현황
+--취업현황고유번호, 회사명, 연봉, 근무지, 교육종료교육생고유번호
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오경컴텍','3000','서울',1);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오경컴텍','3000','서울',2);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'퀸텍','3200','서울',3);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'퀸텍','3200','서울',4);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'기비아','3500','경기도',5);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'대보정보통신','3300','경기도',6);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'DB','3500','서울',7);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'롯데정보통신','3100','서울',8);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'링네트','3300','서울',9);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'메티넷대우정보','3800','서울',10);
+
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'삼성에스디에스','3500','서울',11);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'신세계IC','3300','서울',12);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'쌍용정보통신','3400','서울',13);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'CJ오리브네트웍스','3500','경기도',14);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'아시아나IDT','3500','경기도',15);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'아이티센','3700','인천',16);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'에스넷','3300','인천',17);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'에스넷','3300','인천',18);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'SK','4000','서울',19);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'SK','4000','서울',20);
+
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'엑스퍼넷','3300','경기도',21);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'LGCNS','3000','경기도',22);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오파스넷','3500','서울',23);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오픈베이스','2900','서울',24);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'인성정보','3100','경기도',25);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'케이씨씨정보통신','3300','경기도',26);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'코오롱베니트','3800','서울',27);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'티탑스','3400','서울',28);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'포스코ICT','3500','인천',29);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'현대오토에버','3500','서울',30);
+
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'미쯔보시','3000','인천',31);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'LGCNS','3000','경기도',32);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오파스넷','3500','서울',33);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오픈베이스','2900','서울',34);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'인성정보','3100','경기도',35);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'케이씨씨정보통신','3300','경기도',36);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'코오롱베니트','3800','서울',37);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'티탑스','3400','서울',38);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'포스코ICT','3500','인천',39);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'현대오토에버','3500','서울',40);
+
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'LGCNS','3000','경기도',41);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오파스넷','3500','서울',42);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오픈베이스','2900','서울',43);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'인성정보','3100','경기도',44);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'케이씨씨정보통신','3300','경기도',45);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'코오롱베니트','3800','서울',46);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'티탑스','3400','서울',47);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'포스코ICT','3500','인천',48);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'현대오토에버','3500','서울',49);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'LG화학','3500','서울',50);
+
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'LGCNS','3000','경기도',51);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오파스넷','3500','서울',52);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'오픈베이스','2900','서울',53);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'인성정보','3100','경기도',54);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'케이씨씨정보통신','3300','경기도',55);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'코오롱베니트','3800','서울',56);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'티탑스','3400','서울',57);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'포스코ICT','3500','인천',58);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'현대오토에버','3500','서울',59);
+INSERT INTO tblemployment (employmentSeq, companyName, annualincome, area, completestudentseq) VALUES (employmentSeq.nextval,'우리인쇄(주)','3500','서울',60);
+
