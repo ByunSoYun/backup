@@ -1,0 +1,38 @@
+package com.test.java;
+
+import java.io.IOException;
+
+public class Ex09_Input {
+	public static void main(String[] args) throws IOException {
+		
+		
+		//Ex09_Input.java
+		
+		/*
+		 콘솔입력
+		 
+		 1.System.in.read() 메소드
+		 
+		 2.BufferedReader 클래스
+		 
+		 3.Scanner 클래스
+		 
+		 
+		 */
+		
+		// 요구사항] 사용자에게 문자 1개를 (키보드)입력 받아서 그대로 화면에 출력하시오
+		//입력 : A
+		//출력: 입력하신 문자는 'A'입니다
+		
+		System.out.println("문자입력: ");
+		
+		//사용자에게 키보드 입력을 해주세요..
+		//- 언제 입력할지 예측할 수가 없기 때문에.. 이 구문에서 잠시 프로그램이 멈춤 상태가 된다.
+		//- 입력 대기 상태 or Block 걸렸다.
+		//- 입력 끝났다는 의사 표실을 엔터로 한다
+		System.in.read();
+		
+		System.out.println("프로그램 종료");
+	}
+
+}

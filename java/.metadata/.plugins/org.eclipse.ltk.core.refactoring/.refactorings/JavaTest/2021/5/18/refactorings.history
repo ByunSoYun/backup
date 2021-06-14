@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.test.question.q28.ㅃ003&apos; to &apos;Q003&apos;&#x0D;&#x0A;- Original project: &apos;JavaTest&apos;&#x0D;&#x0A;- Original element: &apos;com.test.question.q28.ㅃ003&apos;&#x0D;&#x0A;- Renamed element: &apos;com.test.question.q28.Q003&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ㅃ003&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.test.question.q28{ㅃ003.java[ㅃ003" matchStrategy="1" name="Q003" qualified="false" references="true" similarDeclarations="false" stamp="1619841959648" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,59 @@
+package com.test.java.obj;
+
+public class Ex36_Class {
+	public static void main(String[] args) {
+		//ex 36_Class. java
+		
+		//1. 값형 (원시형) 배열 
+		//2. 참조형 배열 
+		
+		int [] num = new int[3];
+		
+		num[0] = 10;
+		num[1] = 20;
+		num[2] = 30;
+		
+		for(int n :num ) {
+			System.out.println(n);
+		}
+		
+		
+		Item[] items = new Item[3]; //Item x 3개 
+		
+		
+		items[0].setName("키보드");
+		items[0].setColor("검정");
+		items[0].setPrice("50000");
+		System.out.println(items[0].getName());
+		System.out.println(items[1].getColor());
+		System.out.println(items[2].getPrice());
+		
+	}//main
+}//Ex36
+
+
+class Item{
+	
+	private String name;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	private String color;
+	private int price;
+	
+}

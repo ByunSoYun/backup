@@ -1,0 +1,28 @@
+package com.test.question.q17;
+
+public class Note {
+	private String size ;
+	private String color ;
+	private int page;
+	private String owner;
+	private int price ;
+	
+	
+	public void setSize(String size) {
+	      this.size = size;  
+	      char c = size.charAt(0);
+	      if( c=='A'|| c=='B') {
+		      for (int i=3;i<6;i++) {
+		    	  if(i>5) {
+		    		  System.out.println("용지를 다시입력해주세요");
+		    	  }
+		      }
+	      }else {
+	    	  System.out.println("용지를 다시입력해주세요");
+	      }
+	}
+	   
+	   public String getSize() {
+	      return this.size;
+	   }
+}

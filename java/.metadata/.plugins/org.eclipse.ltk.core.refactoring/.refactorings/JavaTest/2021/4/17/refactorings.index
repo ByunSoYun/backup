@@ -1,0 +1,23 @@
+1618794754415	Encapsulate field 'weight'
+1618794791043	Encapsulate field 'color'
+1618794807429	Encapsulate field 'weight'
+1618802352969	Encapsulate field 'school'
+1618808659826	Encapsulate field 'model'
+1618808979308	Encapsulate field 'count'
+1618813837927	Rename package 'com.test.question.q21'
+1618813853409	Rename package 'com.test.question.q20'
+1618821081355	Rename compilation unit 'Macaron22.java'
+1618835572144	Move compilation units
+1618835607865	Move compilation units
+1618964233115	Delete element
+1618965027142	Rename type 'Inheritance'
+1618989118421	Rename type 'Cast'
+1619008482389	Move compilation unit
+1619009856625	Rename package 'com.test.java.inheritance2'
+1619009865921	Rename package 'com.test.java.inheritance'
+1619058897313	Encapsulate field 'data'
+1619062616706	Encapsulate field 'data'
+1619077093436	Rename type 'Ex61_Collction'
+1619142511556	Encapsulate field 'math'
+1619145533172	Extract method 'pause'
+1619177492572	Delete element

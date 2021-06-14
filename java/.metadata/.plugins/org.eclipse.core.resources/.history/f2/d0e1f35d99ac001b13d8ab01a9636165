@@ -1,0 +1,294 @@
+package com.test.java.project;
+
+public class EmployeeData {
+
+	t gwajangYear ;
+	static int gwajangMonth ;
+	static int gwajangDay;
+
+	static int daeriYear;
+	static int daeriMonth;
+	static int daeriDay;
+
+	static int sawonYear;
+	static int sawonMonth;
+	static int sawonDay;
+
+	public static void main(String[] args) {
+		
+		
+
+		String[] name = new String[count];
+
+		// 이름(성)
+		String[] n1 = { "김", "이", "박", "최", "정", "한", "유", "조", "임", "왕", "변", "신", "백", "오", "구", "고", "염", "추" };
+		// 이름
+		String[] n2 = { "대", "은", "창", "미", "준", "우", "나", "혜", "운", "인", "영", "수", "민", "호", "환", "혁", "현", "희", "준",
+				"원", "소", "윤", "시", "내", "효", "일", "지", "우", "민", "빛", "화", "학", "래", "인" };
+
+		for (int i = 25; i < count; i++) {
+
+			name[i] = n1[(int) (Math.random() * n1.length)] + n2[(int) (Math.random() * n2.length)]
+					+ n2[(int) (Math.random() * n2.length)];
+			
+			String sawonBirth = sawon();
+			
+			//System.out.printf("%s,%s,%s,%s,%s,"name[i]+","+sawonBirth);
+			
+			// 프로그램에서 사용할 임시 데이터 생성 메소드
+		      Random rnd = new Random();
+
+		      int[] number1 = new int[count];
+		      String[] employeeNum = new String[count];
+
+
+		      
+		         number1[i] = rnd.nextInt(6) + 2015;
+		        // number1[i] = rnd.nextInt(15) + 2000;
+		         int num = ((int) (Math.random() * 10));
+		         int num1 = ((int) (Math.random() * 10));
+		         int num2 = ((int) (Math.random() * 10));
+		         int num3 = ((int) (Math.random() * 10));
+
+		         String random = num + "";
+		         random += num1 + "";
+		         random += num2 + "";
+		         random += num3 + "";
+
+		         employeeNum[i] = number1[i] + random + "";
+
+		      //   System.out.println(employeeNum[i]);
+		     
+		      
+		      
+		      
+		      String[] phoneNum = new String[count];
+		      String[] address = new String[count];
+		      
+		      //주소
+		      String[] a1 = {"서울특별시", "인천광역시", "하남시", "구리시", "김포시", "과천시", "성남시", "부천시", "의정부시"};
+		      String[] a2 = {"동대문구", "서대문구", "중구", "남구", "강남구", "강동구", "수정구", "중랑구", "동작구", "부평구", "마포구", "영등포구", "서대문구", "은평구", "수지구"};
+		      String[] a3 = {"쌍문동", "방학동", "신봉동", "연남동", "역삼동", "길동", "천호동", "봉천동", "삼청동", "평창동", "구로동", "하계동", "중계동", "신도림동", "응암동", "수색동","명일동", "회현동", "노량진동", "대방동"};
+		      
+		      
+		 
+		         //휴대폰 번호
+		         String pnum = String.format("%08d", (int)(Math.random()*100000000)) + "";
+		         phoneNum[i] = "010-" + pnum.substring(0,4) + "-" + pnum.substring(4);
+		         
+		         
+		         //주소
+		         address[i] = a1[(int)(Math.random() *a1.length)]
+		               + " "
+		               + a2[(int)(Math.random() *a2.length)]
+		               + " "
+		               + a3[(int)(Math.random() *a3.length)]
+		               + " "
+		               +((int)(Math.random() * 330) + 1)
+		               + "번지";
+
+		        
+		        
+		         int inMonth = rnd.nextInt(12) + 1;
+				int inDay = rnd.nextInt(27) + 1;
+		         
+		         String inDate = String.format("%d-%02d-%02d", number1[i],inMonth,inDay);
+		         String boojangBirth= boojang();
+		         String chajangBirth= chajang();
+		         String daeri= daeri();
+		         String gwajang= gwajang();
+		         
+		        	// System.out.printf("%d,%s,인사부,대리,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],daeri,phoneNum[i],address[i]);
+		         
+//		         
+//		         if(i<5) {
+//		        	 System.out.printf("%d,%s,인사부,부장,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],boojangBirth,phoneNum[i],address[i]);
+//		         } else if(i<10) {
+//		        	 System.out.printf("%d,%s,인사부,차장,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],chajangBirth,phoneNum[i],address[i]);
+//		         }else if(i<15) {
+//		        	 System.out.printf("%d,%s,인사부,과장,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],gwajang,phoneNum[i],address[i]);
+//		         }
+		         
+////		         
+		         if(i<40) {
+		        	 System.out.printf("%d,%s,인사부,사원,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],sawonBirth,phoneNum[i],address[i]);
+		        	 
+		         }else if(i<55) {
+		        	 System.out.printf("%d,%s,개발부,사원,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],sawonBirth,phoneNum[i],address[i]);
+		        	 
+		         }else if(i<70) {
+		        	 System.out.printf("%d,%s,영업부,사원,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],sawonBirth,phoneNum[i],address[i]);
+		        	 
+		         }else if(i<85) {
+		        	 System.out.printf("%d,%s,회계부,사원,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],sawonBirth,phoneNum[i],address[i]);
+		        	 
+		         }else if(i<100){
+		        	 System.out.printf("%d,%s,기획부,사원,%s,%s,%s,%s,%s\n",i+1,name[i],inDate,employeeNum[i],sawonBirth,phoneNum[i],address[i]);
+		        	 
+		         }
+		         
+			
+			
+			
+			
+			
+
+		}
+//
+//		boojang();
+//
+//		chajang();
+//
+//		gwajang();
+//
+//		daeri();
+//
+//		sawon();
+
+	}// main
+
+	private static String sawon() {
+		//for (int i = 0; i < sawonCount; i++) {
+
+			sawonYear = rnd.nextInt(9) + 1990;
+			sawonMonth = rnd.nextInt(12) + 1;
+			sawonDay = rnd.nextInt(27) + 1;
+
+			
+
+			String sawonDate = String.format("%d-%02d-%02d", sawonYear, sawonMonth, sawonDay);
+			
+			
+			return sawonDate;
+
+		//}
+	}
+
+	private static String daeri() {
+		
+
+			daeriYear= rnd.nextInt(8) + 1983;
+			daeriMonth = rnd.nextInt(12) + 1;
+			daeriDay = rnd.nextInt(27) + 1;
+
+			String daeriDate = String.format("%d-%02d-%02d", daeriYear, daeriMonth, daeriDay);
+			return daeriDate;
+
+		
+	}
+
+	private static String gwajang() {
+		
+
+			gwajangYear = rnd.nextInt(6) + 1978;
+			gwajangMonth= rnd.nextInt(12) + 1;
+			gwajangDay= rnd.nextInt(27) + 1;
+
+			String gwajangDate = String.format("%d-%02d-%02d", gwajangYear, gwajangMonth, gwajangDay);
+			
+			return gwajangDate;
+		
+	}
+
+	private static String chajang() {
+		
+
+			chajangYear = rnd.nextInt(5) + 1976;
+			chajangMonth = rnd.nextInt(12) + 1;
+			chajangDay= rnd.nextInt(27) + 1;
+
+			String chajangDate = String.format("%d-%02d-%02d", chajangYear, chajangMonth, chajangDay);
+			return chajangDate;
+		
+	}
+
+	private static String boojang() {
+		
+
+			boojangYear = rnd.nextInt(6) + 1970;
+			boojangMonth = rnd.nextInt(12) + 1;
+			boojangDay= rnd.nextInt(27) + 1;
+
+			String boojangDate = String.format("%d-%02d-%02d", boojangYear, boojangMonth, boojangDay);
+			
+			
+			return boojangDate;
+		
+	}
+
+}
+
+class Employee {
+
+	String name;
+	String birth;
+	String phone;
+	String employeeNum;
+	String inDay;
+	String level;
+	String address;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getBirth() {
+		return birth;
+	}
+
+	public void setBirth(String birth) {
+		this.birth = birth;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getEmployeeNum() {
+		return employeeNum;
+	}
+
+	public void setEmployeeNum(String employeeNum) {
+		this.employeeNum = employeeNum;
+	}
+
+	public String getInDay() {
+		return inDay;
+	}
+
+	public void setInDay(String inDay) {
+		this.inDay = inDay;
+	}
+
+	public String getLevel() {
+		return level;
+	}
+
+	public void setLevel(String level) {
+		this.level = level;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+}
+}

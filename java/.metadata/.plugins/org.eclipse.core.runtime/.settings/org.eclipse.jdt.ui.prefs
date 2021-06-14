@@ -1,0 +1,31 @@
+breadcrumb.org.eclipse.jdt.ui.JavaPerspective=true
+command=C\:\\eclipse\\plugins\\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\\jre\\bin\\javadoc.exe
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
+content_assist_favorite_static_members=org.junit.Assert.*;org.junit.Assume.*;org.junit.jupiter.api.Assertions.*;org.junit.jupiter.api.Assumptions.*;org.junit.jupiter.api.DynamicContainer.*;org.junit.jupiter.api.DynamicTest.*;org.mockito.Mockito.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.io.Reader"><rhs name\="java.io.BufferedReader"/><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="java.lang.Readable"><rhs name\="java.io.BufferedReader"/><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.BufferedReader"/><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.BufferedReader"/><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="java.io.BufferedReader"><rhs name\="java.io.BufferedReader"/></lhs><lhs name\="com.test.java.obj.User"><rhs name\="com.test.java.obj.User"/></lhs><lhs name\="com.test.question.q23.Student"><rhs name\="com.test.question.q23.Student"/></lhs></history>
+content_assist_number_of_computers=20
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.exception.name=e
+org.eclipse.jdt.ui.formatterprofiles.version=21
+org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.overrideannotation=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java-statements" deleted\="false" description\="\uCF54\uB4DC\uC870\uAC01 \uC5F0\uC2B5\uC785\uB2C8\uB2E4." enabled\="true" name\="test">//\uCF54\uB4DC\uC870\uAC01\uC5F0\uC2B5\uC785\uB2C8\uB2E4 &\#13;\r\nSystem.out.println("\uC5F0\uC2B5\:);&\#13;\r\n${cursor}</template><template autoinsert\="true" context\="java-statements" deleted\="false" description\="stsf \uBA54\uC18C\uB4DC\uC785\uB2C8\uB2E4" enabled\="true" name\="sysf">System.out.printf("${format}",${data});${cursor}&\#13;\r\n</template><template autoinsert\="true" context\="java-statements" deleted\="false" description\="\uCF58\uC194\uC785\uB825" enabled\="true" name\="reader">BufferedReader reader \= new BufferedReader(new InputStreamReader(System.in));</template></templates>
+sourceHoverBackgroundColor=255,255,225
+spelling_ignore_ampersand_in_properties=true
+spelling_ignore_digits=true
+spelling_ignore_java_strings=true
+spelling_ignore_mixed=true
+spelling_ignore_non_letters=true
+spelling_ignore_sentence=true
+spelling_ignore_single_letters=true
+spelling_ignore_upper=true
+spelling_ignore_urls=true
+spelling_locale_initialized=true
+spelling_user_dictionary_encoding=MS949
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

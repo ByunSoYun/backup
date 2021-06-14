@@ -1,0 +1,13 @@
+package com.test.java;
+
+public class Ex10_Input {
+	public static void main(String[] args) {
+		
+		//Ex10_Input.java
+		
+		String Byungsin="박한빛 병신";
+		
+		System.out.println(Byungsin);
+	}
+
+}

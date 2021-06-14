@@ -1,0 +1,30 @@
+package com.test.java;
+
+public class Ex09_Input {
+	public static void main(String[] args) {
+		
+		
+		//Ex09_Input.java
+		
+		/*
+		 콘솔입력
+		 
+		 1.System.in.read() 메소드
+		 
+		 2.BufferedReader 클래스
+		 
+		 3.Scanner 클래스
+		 
+		 
+		 */
+		
+		// 요구사항] 사용자에게 문자 1개를 (키보드)입력 받아서 그대로 화면에 출력하시오
+		//입력 : A
+		//출력: 입력하신 문자는 'A'입니다
+		
+		System.out.println("문자입력: ");
+		System.in.read();
+	
+	}
+
+}

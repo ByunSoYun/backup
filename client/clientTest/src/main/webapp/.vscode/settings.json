@@ -1,0 +1,23 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 17,
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 23,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Atom One Dark",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontFamily": "Consolas, '맑은 고딕', 'Courier New', monospace",
+    "scm.inputFontSize": 12,
+    "editor.fontLigatures": null,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#FFFFAA",
+                    "fontStyle": "normal"
+                }
+            }
+        ]
+    }
+}

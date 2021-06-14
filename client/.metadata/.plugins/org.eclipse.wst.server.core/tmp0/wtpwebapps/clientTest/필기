@@ -1,0 +1,54 @@
+C:\clas\client 폴더생성
+1. HTML
+2. CSS
+3. JavaScript
+
+
+사용도구
+1. Eclipse
+2. 다른 편집기 -> Visual Studio Code
+
+자바 인코딩 바꾸기 > utf-8
+window -> preferences
+     - workspace > Text File Encoding
+     - Css Files, HTML Files, JSP Files 
+
+
+http://tomacat.apache.org
+download(왼쪽)> tomcat.80 > 64-bit Windows zip (pgp, sha512) > C드라이브에 압축해제폴더 저장
+
+자바 서버등록
+window > preferences > server(검색) > Runtime Environments > add(아파치저장파일)
+
+이클립스 파일만들기
+New > Dynamic Web Project > "ClientTest"
+
+서버설정.
+오라클 서비스 중 하나 -> 8080번 사용
+아파치톰캣
+-포트번호 8080번 사용 
+- 3000대 이후~ 32000번.. 
+- 서버(톰캣8.5 더블클릭 > Overview > 오른쪽 Ports http/1.1 포트8080 -> 8090으로수정)
+> 충돌 > 에러남.
+
+
+
+내부 브라우저 - 수업(통일)
+1. Internet Explorer (구)  -> 절대 X
+2. edge(***)
+3. Chrome(***)
+4. Fire Fox
+5. Opera
+6. Naver Whale (***)
+7. Safari
+
+
+
+
+
+
+
+
+
+
+
