@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+        width: 500px;
+        margin: 10px auto;
+    }
+
+    hr{
+        margin-bottom: 50px;
+    }
+
+    span{
+        font-weight: bold;
+    }
+
+    input{
+        height: 25px;
+        width: 110px;
+        font-size: 15px;
+        font-weight: bold;
+
+        
+    }
+    input[name ="txt1"]{
+        height: 25px;
+        width: 200px;
+        color: red;mouse
+        font-size: 15px;
+        border: 0px;
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h2>아이디 유효성 검사</h2>
+    <h3>아이디 유효성 검사를 하시오.</h3>
+    <hr>
+   
+
+    <span>아이디 : </span>
+    <input type="text" value="" name="txt">
+    <input type="text" value="" name="txt1">
+    </div>
+
+    <script>
+        var txt = document.all.txt;
+        var txt1 = document.all.txt1;
+
+        txt.onkeyup = function(){
+            if(txt.value.length < 5){
+                txt1.value = "아이디가 너무 짧습니다."
+            }else if (txt.value.length >= 5 && txt.value.length <= 10){
+                txt1.value = "아이디가 적합합니다."
+            }else if (txt.value.length > 10){
+                txt1.value = "아이디가 너무 깁니다."
+            }
+        };
+    </script>
+</body>
+</html>

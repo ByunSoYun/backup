@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 600px;
+           margin: 10px auto;
+        }
+        input[type=text]{
+            width: 70px;
+            margin: auto 5px;
+            height: 25px;
+            font-weight: bold;
+        
+        }
+
+
+        table{
+            border-collapse: collapse;
+            width: 600px;
+           
+
+        }
+
+        td:first-child{
+            background-color:#E4E4E4;
+            text-align: center;
+            height: 50px;
+            font-weight: bold;
+        }
+
+       
+
+        td{
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h2>회원가입 + 폼 컨트롤 조작</h2>
+    <h3>주민번호 입력시 나머지 컨트롤(생년월일,성별) 제어를 하시오</h3>
+    <hr>
+    <table>
+        <tr class="tr1">
+            <td>주민번호</td>
+            <td>
+                <input type="text" value="" name="txt1" maxlength="6">
+                -
+                <input type="text" value="" name="txt2" maxlength="7">
+            </td>
+        </tr>
+        <tr>
+            <td>생년월일</td>
+            <td>
+                <input type="text" value="" name="txt3" style="width: 50px;">년
+                <input type="text" value="" name="txt4" style="width: 30px;">월
+                <input type="text" value="" name="txt5" style="width: 30px;">일
+            </td>
+
+        </tr>
+        <tr>
+            <td>성별</td>
+            <td>
+      
+                <input type="radio" name="gender" id="men">남자
+                <input type="radio" name="gender" id="women">여자
+
+
+                
+            </td>
+
+        </tr>
+    </table>
+    </div>
+
+    <script>
+        var txt1 = document.all.txt1;
+        var txt2 = document.all.txt2;
+        var txt3 = document.all.txt3;
+        var txt4 = document.all.txt4;
+        var txt5 = document.all.txt5;
+
+        var gender = document.all.gender; // 배열..
+
+        txt1.onkeyup = function(){
+            if(txt1.value.length == 6){
+                
+                txt3.value = "19"+ txt1.value.substr(0,2);
+                txt4.value = txt1.value.substr(2,2);
+                txt5.value = txt1.value.substr(4,2);
+
+                txt2.focus();
+            }
+        }
+        txt2.onkeyup = function(){
+            if(txt2.value.length==1){
+                if(txt2.value.substr(0,1)==1){s
+                    gender[0].checked =true;
+                    
+                }else if(txt2.value.substr(0,1) == 2){
+                    gender[1].checked=true;
+                }
+            }
+        };
+
+
+
+    </script>
+</body>
+</html>

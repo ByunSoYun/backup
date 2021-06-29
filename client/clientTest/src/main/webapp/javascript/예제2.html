@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 600px;
+            margin: 10px auto;
+        }
+        
+        hr{
+            margin-bottom: 20px;
+        }
+
+        input{
+            display: block;
+            height: 40px;
+            margin: 10px ;
+            padding: 7px 40px;
+            border-radius: 5px;
+            background-color: #eee;
+            font-size: 17px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        table{
+            /* border: 1px solid black; */
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        
+        #t1{
+            width: 150px;
+        
+        }
+
+        #t2 img{
+            margin :10px 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 예제 2 -->
+    <div class="box1">
+    <h2>롤오버 이미지 + 새창띄우기</h2>
+    <h4>좌측 링크에 아우스를 올리면 우측 이미지를 변경하고 클릭하면 큰 이미지를 새창으로 띄우시오. </h4>
+    <hr>
+    <table>
+        <tr>
+            <td id="t1">
+            <input type="button" value="강아지1" name="dog">
+            <input type="button" value="강아지2" name="dog">
+            <input type="button" value="강아지3" name="dog">
+            <input type="button" value="강아지4" name="dog">
+            <input type="button" value="강아지5" name="dog">
+             </td>
+
+             <td id="t2">
+            <img src="images/dog01.jpg" name ="img">
+             </td>
+
+        </tr>
+    </table>
+    </div>  
+
+    <script>
+        var dog = document.all.dog;
+
+        for(var i=0; i<dog.length; i++){
+            dog[i].onmouseover = function(){
+               img.src = "images/dog0" + getNum(event.srcElement.value)+ ".jpg"
+            };
+            dog[i].onclick = function(){
+                window.open("images/dog0" + getNum(event.srcElement.value) +"_big.jpg" , "width=1400, height=1050");
+            
+          
+            };
+        }
+
+        
+
+
+        function getNum(value){
+           return value.substr(3);
+        }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box{
+        width: 800px;
+        margin: 10px auto;
+    }
+        
+
+    form{
+        width: 800px;
+        height: 206px;
+    }
+    table {
+        width: 600px;
+        height: 150px;
+        border-collapse: collapse;
+        margin-left: 350px;
+    }
+  
+
+    td:first-child{
+        border: 1px solid black;
+        text-align: center;
+        background-color: #DEDEDE;
+        font-weight: bold;
+        width: 100px;
+    }
+
+    td{
+        border: 1px solid black;
+        padding: 5px 10px;
+    }
+    input[name = "txt1"]{
+        height: 25px;
+        width: 70px;
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+    input[type = "button"]{
+        font-weight: bold;
+        height: 27px;
+    }
+
+    input[name = "txt2"] ,input[name = "txt3"]{
+        height: 25px;
+        width: 400px;
+        font-size: 16px;
+        font-weight: bold;
+        
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    
+    <h2>우편 번호 검색</h2>
+        <h4>새 창을 띄운 뒤 우편번호 검색을 하시오</h4>
+    <hr>
+    <h2>우편 번호 검색</h2>
+
+    </div>
+    
+    <table>
+        <tr>
+            <td>
+                우편번호
+            </td>
+            <td>
+                <input type="text" id="home" name="txt1" value="">
+                <input type="button" value="우편번호검사하기" name="btn">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                주소
+            </td>
+            <td>
+                <input type="text" id="ad" name="txt2" value="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+               상세주소
+            </td>
+            <td>
+                <input type="text" id="detailad" name="txt3" value="">
+            </td>
+        </tr>
+    </table>
+
+
+
+    <script>
+        
+        var txt1 = document.all.txt1;
+        var btn = document.all.btn;
+        var txt2 = document.all.txt2;
+        var txt3 = document.all.txt3;
+
+        var child;
+
+        btn.onclick = function(){
+              //open(url, name, option)
+          window.open('예제3child.html', '예제3child' ,'width=300, height=300');
+        };
+        
+
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .title{
+            width:680px;
+            height:86px;
+            margin: 30px auto;
+        }
+
+        p{
+            padding-left: 10px;
+            border-left: 3px dotted gray;
+        }
+        .box{
+            margin:  auto;
+            transition:all 0.5s;
+        }
+
+        #box1:hover .box{
+            border-radius: 10%;
+        }
+
+        
+        #box2:hover .box{
+            border-radius: 20%;
+        }
+
+        #box3:hover .box{
+            border-radius: 30%;
+        }
+
+        #box4:hover .box{
+            border-radius: 35%;
+        }
+
+        #box5:hover .box{
+            border-radius: 45%;
+        }
+
+        #box6:hover .box{
+            border-radius: 50%;
+        }
+
+        #box7:hover .box{
+            border-radius: 50%;
+        }
+        #box1{
+            width: 500px; 
+            height: 500px;
+            background-color: red;
+            padding: 25px;
+        }
+        #box2{
+            width: 450px; 
+            height: 450px;
+            background-color: orange;
+            padding: 25px;
+
+        }
+        #box3{
+            width: 400px; 
+            height: 400px;
+            background-color: yellow;
+            padding: 25px;
+
+        }
+        #box4{
+            width: 350px; 
+            height: 350px;
+            background-color: green;
+            padding: 25px;
+
+        }
+        #box5{
+            width: 300px; 
+            height: 300px;
+            background-color: blue;
+            padding: 25px;
+
+        }
+        #box6{
+            width: 250px; 
+            height: 250px;
+            background-color: indigo;
+            padding: 25px;
+
+        }
+        #box7{
+            width: 200px; 
+            height: 200px;
+            background-color: violet;
+            padding: 25px;
+
+        }
+</style>
+<body>
+</body>   
+<div class="title">
+    <h1>transition + :hover + border-radius</h1>
+    <p>아래 상자에 마우스를 올리면 변화를 주시오.</p>
+    </div>  
+    <div id="box1" class="box">
+        <div id="box2" class="box">
+            <div id="box3" class="box">
+                <div id="box4" class="box">
+                     <div id="box5" class="box">
+                        <div id="box6" class="box">
+                             <div id="box7" class="box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>

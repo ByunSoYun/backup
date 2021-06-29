@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .box{
+        width: 700px;
+        margin: 10px auto;
+    }
+
+   
+    img{
+        display: inline-block;
+        width: 200px;
+        margin: 50px auto 5px;
+    }
+
+    input{
+        width: 600px;
+        height: 41px;
+        font-size: 30px;
+        font-weight: bold;
+        border: 0px;
+    }
+
+   
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>롤오버 이미지 + 텍스트 박스</h2>
+        <h3>이미지에 반응해 아래의 텍스트를 같이 변경하시오</h3>
+        <hr>
+   
+
+        <img src="images/img01.jpg" name="picture">
+        <img src="images/img02.jpg" name="picture">
+        <img src="images/img03.jpg" name="picture">
+
+       
+        <input type="text" value="" name="txt">
+    </div>
+
+
+    <script>
+        var picture = document.all.picture; // 배열
+        var txt = document.all.txt;
+
+       picture[0].onmouseover = function(){
+        txt.value = "'스키'타는 사람이 '당근'으로 변했습니다."
+       }
+        
+
+        for(var i=0; i<picture.length; i++){
+            picture[i].onmouseover = function(){
+                if(getNum(event.srcElement.src) == 1){
+                    txt.value = "'스키'타는 사람이 '당근'으로 변했습니다."
+                }else if(getNum(event.srcElement.src) == 2){
+                    txt.value = "'해바라기'가 '피망'으로 변했습니다."
+                }else if(getNum(event.srcElement.src) == 3){
+                    txt.value = "'나무'가 '개'가 됐습니다."
+                }
+            event.srcElement.src = "images/img0" + ((parseInt(getNum(event.srcElement.src))) +3) +".jpg";
+                
+            }
+
+            picture[i].onmouseout = function(){
+                if(getNum(event.srcElement.src) == 4 ||getNum(event.srcElement.src) == 5|| getNum(event.srcElement.src) == 6 ){
+                    txt.value = ""
+                }
+                event.srcElement.src = "images/img0"+(((parseInt(getNum(event.srcElement.src)))- 3)) +".jpg";
+             
+            }
+
+        }
+
+
+
+       
+
+        
+        
+        function getNum(url){
+           var index = url.lastIndexOf(".");
+           return url.substr(index-1,1);
+       }
+
+    
+    </script>
+</body>
+</html>

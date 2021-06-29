@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box{
+        width: 800px;
+        margin: 30px auto;
+    }
+    hr{
+        margin-bottom: 50px ;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h2>고양이 키우기+마우스 이벤트</h1>
+    <h3>마우스를 올리면 고양이 사이즈를 증가시키고, 클릭하면 리셋하시오</h3>
+    <hr>
+    <img src="images/catty01.png" name="cat">
+    <img src="images/catty02.png" name="cat">
+    <img src="images/catty03.png" name="cat">
+    <img src="images/catty04.png" name="cat">
+    <img src="images/catty05.png" name="cat">
+    </div>
+
+    <script>
+        var cat = document.all.cat; //배열 
+ 
+       
+
+        for(var i=0; i<cat.length; i++){
+            cat[i].onmouseover = function(){
+                event.srcElement.width = parseInt(event.srcElement.width) + 5
+            }
+
+            cat[i].onclick = function(){
+                event.srcElement.width = 128
+            }
+        }
+        
+
+    </script>
+</body>
+</html>

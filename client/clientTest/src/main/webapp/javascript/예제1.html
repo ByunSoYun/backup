@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: auto;
+            width: 1500px;
+            margin-left: 50px;
+        }
+      
+      form{
+          margin-top: 50px;
+          width: 1500px;
+          margin-right: -3000px;
+      }
+      img{
+          width: 250px;
+          height: 180x;
+      }
+    </style>
+</head>
+<body>
+    <!-- 예제 1 -->
+    <div>
+    <h1>롤오버 이미지</h1>
+    <h2>마우스를 이미지에 올리거나 내리면 그에 반응하여 이미지를 바꾸시오.</h2>
+    <hr>
+    <form>
+
+    <img src="images/cat01.jpg" name="cat">
+    <img src="images/cat02.jpg" name="cat">
+    <img src="images/cat03.jpg" name="cat">
+    <img src="images/cat04.jpg" name="cat">
+    <img src="images/cat05.jpg" name="cat">
+    </form>
+    </div>
+
+    <script>
+       var cat = document.images;
+
+       for(var i=0; i<cat.length; i++){
+           cat[i].onmouseover = function(){
+               event.srcElement.src = "images/dog0" + getNum(event.srcElement.src) + ".jpg"
+           }
+
+           cat[i].onmouseout = function(){
+               event.srcElement.src =  "images/cat0" + getNum(event.srcElement.src) + ".jpg"
+           }
+
+
+
+       };
+
+
+       function getNum(url){
+           var index = url.lastIndexOf(".");
+           return url.substr(index-1,1);
+       }
+
+    </script>
+</body>
+</html>

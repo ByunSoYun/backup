@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       
+        #title{
+            width:500px;
+            height: 43px;
+            text-align: left;
+            margin: 30px auto;
+            font-size: 32px;
+            
+
+        }
+        #content{
+            width: 490px;
+            height: 21.7px;
+            margin: 30px auto;
+            font-size: 16px;
+            padding-left: 10px ;
+            border-left: 3px dotted gray;
+            
+
+        }
+      
+        .box{
+            border: 1px solid black;
+            width: 502px;
+            height: 202px;
+            overflow: hidden;
+            margin: 30px auto;
+            
+        }
+        
+
+        .box #innerbox{
+            /* border: 1px solid red; */
+            width : 500px;
+            height: 202px;
+            transition:all 5s;
+            text-align: left;
+            transition-timing-function: linear;
+
+        }
+
+
+        .box:hover > #innerbox{
+            transform: translate(0px, -2400px)
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">transition</h1>
+    <div id="content">
+    <div>아래 상자에 마우스를 올리면 내용을 스크롤 하시오.</div></div>
+
+    <div class="box">
+        <div id="innerbox">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, incidunt quis? Debitis vero incidunt soluta tempora error vel! Est temporibus animi quam unde tempora numquam! Eos omnis ad neque! Iste a ex assumenda laudantium animi. Nostrum accusantium placeat quaerat culpa et? Odio atque voluptatibus asperiores officiis, veritatis odit nesciunt nostrum?</p>
+        <h1>Aspernatur qui hic rerum ducimus?</h1>
+        <p>Totam sunt animi illum cupiditate accusantium. Cupiditate nam ratione officiis accusamus aspernatur obcaecati dolores consequuntur eos veritatis tenetur nisi libero delectus vero sequi, suscipit enim veniam numquam. Cumque enim ipsam iure sit, voluptatum maiores consequuntur. Nesciunt aut, temporibus est praesentium esse culpa consequatur minima quibusdam ipsum. Ex quos rerum suscipit!</p>
+        <h1>Quidem illum sapiente sed totam!</h1>
+        <p>Soluta dicta possimus eligendi, ducimus nemo corrupti rerum animi ipsam iusto nulla ea minima quis aperiam. Dolorum vel neque perferendis inventore necessitatibus iusto rem dolore voluptates placeat? Aspernatur voluptatem rerum explicabo in quia? Ipsum aspernatur impedit quidem quibusdam harum assumenda, doloribus ipsam accusantium beatae vitae labore expedita ad, voluptatibus delectus.</p>
+        <h1>Tenetur nesciunt eveniet totam deleniti?</h1>
+        <p>Eius nemo pariatur, facilis ipsa et sit labore, cum eveniet odio totam voluptate. Consequatur esse tempore blanditiis dolor incidunt laborum error sapiente sunt et aliquam ea ipsa illo laudantium qui consectetur accusantium quo, quos nulla id quas excepturi earum perspiciatis non architecto. Excepturi ipsum ea accusamus voluptatibus corrupti exercitationem tempore.</p>
+        <h1>Repellat aliquam illo molestias alias?</h1>
+        <p>Dolorem iusto ab aperiam saepe laborum, mollitia accusantium, odio ducimus magni ipsum facere veritatis blanditiis dolor earum sapiente totam quas quod aliquid ad? Veniam quam iusto doloribus cumque! Repellendus eaque sint minima dolor aspernatur beatae recusandae voluptatum id unde molestias molestiae aliquam tempora enim cupiditate corporis, officiis obcaecati incidunt repudiandae.</p>
+        <h1>Nemo corporis suscipit tenetur iusto?</h1>
+        <p>Corrupti, illum non quibusdam at voluptatibus voluptas ipsa alias vero quaerat eum eius, tempore asperiores id, fugiat repudiandae odio iste natus eligendi nisi ex aliquid? Itaque ab architecto blanditiis debitis sunt earum laborum iste magni asperiores neque? Quam ad debitis voluptate neque iste. Animi fugit hic ab perspiciatis ipsa. Nostrum?</p>
+        <h1>Voluptates earum enim placeat aut.</h1>
+        <p>Consequuntur assumenda delectus ad deleniti? Nobis dolore alias asperiores laudantium hic reiciendis expedita quae vero quia minus laborum magnam exercitationem quaerat cupiditate minima est quis sequi, voluptatibus voluptates unde nemo excepturi enim. Rem iusto neque quas earum magnam ipsum quo? Cupiditate nesciunt, fugit ad ex accusantium possimus animi culpa perspiciatis!</p>
+        <h1>Distinctio eligendi eveniet similique et?</h1>
+        <p>Sint laboriosam cumque, totam ab natus dolore pariatur cum voluptate magnam eligendi. In a omnis nihil deleniti quis culpa tempore magnam vel, qui itaque nemo reiciendis hic tempora placeat, sequi officia exercitationem quae natus laboriosam cumque maxime voluptate dicta similique! Quisquam consectetur fugit ullam necessitatibus recusandae aliquid, pariatur nisi minus?</p>
+        <h1>Ducimus vero error corrupti voluptatibus.</h1>
+        <p>Reprehenderit corrupti fugit, alias beatae deleniti, placeat cupiditate aperiam repellat, aliquam vel corporis reiciendis voluptates nulla? Sapiente expedita totam suscipit pariatur libero magni, officiis itaque porro in natus alias esse ut nobis dolore! Vitae fugit nostrum officiis ab assumenda ducimus deserunt unde? Iste recusandae aspernatur unde minima dicta non ad.</p>
+        <h1>Veritatis est placeat dolore repellat?</h1>
+        <p>Quidem deleniti provident dolor? Maxime perferendis eveniet, hic nobis repellat animi reiciendis eaque labore, provident accusantium ut nemo porro voluptas possimus vel numquam soluta et voluptatum impedit ipsum, quam accusamus tempore ipsa! Nulla at, aliquid neque cumque voluptate rerum dolorem non impedit illum consectetur minus exercitationem iure sapiente esse amet!</p>
+        </div>
+    </div>
+</body>
+</html>

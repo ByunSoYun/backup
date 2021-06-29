@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 700px;
+            margin: 50px auto;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 700px;
+            color: #444444;
+            
+        }
+
+        .box td:first-child, .box th:first-child{
+            width: 70px;
+        }
+
+        .box td:last-child, .box th:last-child{
+            width: 70px;
+        }
+
+        th{
+            background-color: #EEEEEE;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            height: 35px;
+            font-weight: bold;
+        }
+        
+        input[type=text]{
+            width: 470px;
+            height: 25px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h1>텍스트 박스 입력 </h1>
+ 
+    <hr>
+    <h2>입력하기</h2>
+
+    <table>
+        <tr>
+            <th>번호</th>
+            <th>입력</th>
+            <th>잠금</th>
+
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+              <input type="text" name="txt"  class ="txt" value="">
+          </td>
+          <td>
+              <input type="checkbox" class="cb" id="cb1">
+          </td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <input type="text" name="txt" class ="txt" id="txt2" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb2">
+            </td>
+  
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+                <input type="text" name="txt" class ="txt" id="txt3" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb3">
+            </td>
+  
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>
+                <input type="text" name="txt"  class ="txt" id="txt4" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb4">
+            </td>
+  
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>
+                <input type="text" name="txt"  class ="txt"id="txt5" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb5">
+            </td>
+  
+          </tr> 
+          <tr>
+            <td>6</td>
+            <td>
+                <input type="text" name="txt" class ="txt" id="txt6" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb6">
+            </td>
+  
+          </tr> 
+          <tr>
+            <td>7</td>
+            <td>
+                <input type="text" name="txt" class ="txt" id="txt7" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb7">
+            </td>
+  
+          </tr> 
+          <tr>
+            <td>8</td>
+            <td>
+                <input type="text" name="txt" class ="txt" id="txt8" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb8">
+            </td>
+  
+          </tr> 
+          <tr>
+            <td>9</td>
+            <td>
+                <input type="text" name="txt" class ="txt" id="txt9" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb9">
+            </td>
+  
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>
+                <input type="text" name="txt" class ="txt" id="txt10" value="">
+            </td>
+            <td>
+                <input type="checkbox" class="cb" id="cb10">
+            </td>
+  
+          </tr>
+    </table>
+</div>
+
+<script>
+	
+	var txt = document.all.txt;
+	var cb = document.all.cb;
+
+	for (var i=0; i<txt.lenght; i++) {
+		cb[i].onclick = function() {
+			if (event.srcElement.checked) {
+				txt[event.srcElement.dataset["no"]].disabled = true;
+			} else {
+				txt[event.srcElement.dataset["no"]].disabled = false;
+			}
+		};
+
+		txt[i].onkeydown = function() {
+			if (event.keyCode == 13) {
+				cb[event.srcElement.dataset["no"]].click();
+			}
+		};
+
+		txt[i].ondblclick = function() {
+			cb[event.srcElement.dataset["no"]].click();
+		};
+	}
+
+
+    
+</script>
+</body>
+</html>

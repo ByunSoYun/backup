@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 600px;
+            margin: 10px auto;
+            align-content: center;
+        }
+        .box1{
+             text-align: center;
+        }
+
+        input[type="button"]{
+            width: 240px;
+            height: 70px;
+            border : 10px solid gray;
+            margin: 10px 5px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+
+        img{
+            margin: 10px;
+            border: 10px solid gray;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Pattern Lock</h2>
+        <h3>패턴 그리고 입력 버튼을 누르시오</h3>
+        <hr> 
+        <div class="box1">
+            <img src="images/rect_icon01.png" name = "icon">
+            <img src="images/rect_icon02.png" name = "icon">
+            <img src="images/rect_icon03.png" name = "icon">
+            <img src="images/rect_icon04.png" name = "icon">
+            <img src="images/rect_icon05.png" name = "icon">
+            <img src="images/rect_icon06.png" name = "icon">
+            <img src="images/rect_icon07.png" name = "icon">
+            <img src="images/rect_icon08.png" name = "icon">
+            <img src="images/rect_icon09.png" name = "icon">
+
+            <input type="button" value="RESET" name="btn1">
+            <input type="button" value="INPUT" name="btn2">
+        </div>
+    </div>
+
+
+    <script>
+        var icon = document.all.icon;
+        var btn1 = document.all.btn1;
+        var btn2 = document.all.btn2;
+        var password = "";
+
+
+
+        for(var i=0; i<icon.length; i++){
+            icon[i].onmouseover = function(){
+
+             password += getNum(event.srcElement.src);
+             event.srcElement.src = "images/rect_icon10.png"
+            
+            }
+        };
+
+        btn1.onclick = function(){
+            for(var k=0; k<icon.length; k++){
+                icon[k].src = "images/rect_icon0" + (k+1) + ".png"
+            }
+            password ="";
+        };
+        
+        btn2.onclick = function(){
+            if(password == "14789"){
+               location.href = "http://google.com";
+            }else{
+                alert("error");
+            }
+        }
+        function getNum(url){
+           var index = url.lastIndexOf(".");
+           return url.substr(index-1,1);
+       }
+
+        function getNum(url){
+           var index = url.lastIndexOf(".");
+           return url.substr(index-1,1);
+       };
+
+    </script>
+</body>
+</html>
