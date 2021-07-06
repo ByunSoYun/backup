@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        img{
+            position: absolute;
+        }
+    </style>
+<body>
+    <div id="box"></div>
+    <script>
+            var count= 1;
+            var box = document.getElementById('box');
+
+            window.onmousedown = function(){
+
+                if(count>10){
+                    box.removeChild(box.firstElementChild);
+                    count--;
+                }
+                var n = parseInt(Math.random() * 9) + 1;   
+                var img = document.createElement('img')
+                img.className = 'img';
+                img.setAttribute('src','images/face0'+ n +'.png');
+                img.style.left = (event.clientX-64) + 'px';
+                img.style.top = (event.clientY-64) + 'px';
+                box.appendChild(img);
+                count++;
+        };         
+    </script>
+</body>
+</html>

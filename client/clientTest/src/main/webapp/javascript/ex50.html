@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+           
+            font-weight: bold;
+            font-size: 85px;
+            text-align: center;
+            color: #444444;
+        }
+        td{
+            width: 126px;
+            height: 126px;
+
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table id="tbl">
+        <tbody id="tbody1">
+            <tr>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <tr>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <tr>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <tr>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <tr>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+        </tbody>
+
+    </table>
+  
+    <script>
+        var cell = document.getElementsByClassName("cell");
+        var num = 0;
+
+        window.onload = function(){
+            
+            cell[num].bgColor = "tomato"; 
+        };
+
+        window.onkeydown = function(){
+
+            clear();
+
+            for(var i=0; i<cell.length; i++){
+                
+               	if (event.keyCode ==  37) { //좌
+		
+			    num--;
+			        if (num < 0 || num % 5 == 4){
+                        num++;
+                    }
+		        } else if (event.keyCode == 39) { //우
+			
+			    num++;
+                    if (num >= cell.length || num % 5 == 0){ num--;
+                    }
+		
+                } else if (event.keyCode == 38) { //상
+                    
+                num-=5;
+                    if (num < 0) {
+                        num+=5;
+                    }
+                        
+                } else if (event.keyCode == 40) { //하
+                    
+                num+=5;
+                    if (num >= cell.length){
+                        num-=5;
+                    } 
+                
+                }
+                
+		cell[num].bgColor = "tomato";
+            }
+        }
+
+
+        function clear(){
+            for( var i=0; i<cell.length; i++){
+                cell[i].bgColor = "transparent";
+            }
+        }
+    </script>
+</body>
+</html>
+

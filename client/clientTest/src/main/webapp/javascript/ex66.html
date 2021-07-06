@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #item{ 
+            position: absolute; 
+            left : 700px; 
+            top:  350px;}
+
+    </style>
+</head>
+<body>
+    <img src="images/item15.gif" id="item" >
+
+    <script>
+        var item = document.getElementById('item');
+
+        window.onmouseover = function(){
+            
+        var x = parseInt(item.style.left);
+        // var y= parseInt(item.style.top);
+        
+
+        if ((parseInt(event.clientX) >= x + 60) && parseInt(event.clientX) <= x + 120) {
+            item.style.left = x - 60 + "px";
+			}
+
+		if ((parseInt(event.clientX) <= x + 60) && parseInt(event.clientX) >= x) {
+				item.style.left = x + 60 + "px";
+			}
+        };
+		
+		
+
+
+			
+	
+
+    </script>
+</body>
+</html>

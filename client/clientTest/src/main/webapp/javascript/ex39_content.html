@@ -6,82 +6,250 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        fieldset {
-            border: 1px solid #999;
-            border-radius: 5px;
-            width: 200px;
-        }
 
-        #tbl1 td {
+        .box {
             border: 1px solid black;
-            padding: 5px 15px;
-            text-align: center;
+            padding: 50px;
         }
-    </style>
 
+        #box1 {background-color: tomato;}
+        #box2 {background-color: gold;}
+        #box3 {background-color: cornflowerblue;}
+
+        .tbl {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .tbl td {
+            border: 1px solid black;
+        }
+
+        #tbl1 {
+            margin: 20px 0;
+        }
+        
+        #tbl1 td {
+            padding: 5px 20px;
+        }
+
+        #tbl2 td {
+            width: 126px;
+            height: 126px;
+        }
+
+        #tbl2 td img {
+            display: block;
+        }
+
+    </style>
 </head>
 <body>
-    <!-- ex39_content.html -->
-    <fieldset>
-        <legend>행x열</legend>
-        <div><label>행: <select id="selRow"></select></label></div>
-        <div><label>열: <select id="selColumn"></select></label></div>
-        <div><input type="button" value="생성하기" id="btnCreate"></div>
+    <!-- ex45_event.html -->
+    
+    <h1>이벤트 버블링(Event Bubbling), 이벤트 터널링(Event Tunneling) == 이벤트 캡처링(Event Capturing)</h1>
 
-    </fieldset>
-
-    <table id="tbl1">
-        <tbody id="tbody1"></tbody>
-
+    <table id="tbl2" class="tbl">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </table>
+
+
+    <table id="tbl1" class="tbl">
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+    </table>
+
+
+
+    <div id="box1" class="box">
+        <div id="box2" class="box">
+            <div id="box3" class="box"></div>
+        </div>
+    </div>
+
     <script>
-        var selRow = document.getElementById("selRow");
-        var selColumn = document.getElementById("selColumn");
 
-        var btnCreate = document.getElementById("btnCreate");
-        var tbody1 = document.getElementById("tbody1")
+        // JavaScript의 이벤트는 기본적으로 버블링을 기반으로 동작한다. (*****)
+        // 터널링 기반의 동작은 지원하지 않는다. -> (추가 지원함)
 
-        //selRow -> BOM 추가 
-        //selColumn -> DOM 추가 
+        var box1 = document.getElementById('box1');
+        var box2 = document.getElementById('box2');
+        var box3 = document.getElementById('box3');
 
-        for(var i=1; i<=30; i++){
-            var op = new Option();
-            op.text = i;
-            op.value = i;
-            selRow.options.add(op);
-        }
+        // box3.onclick = function(){
+        //     alert('손자');
+        //     // alert(event.srcElement.id);
 
-        selRow.value = 5; //평균 -> 초기값
+        //     // 부모로 전파되는 버블링을 취소
+        //     // event.cancelBubble = true;
+        // };
 
-        for(var i=1; i<=10; i++){
+        // box2.onclick = function(){
+        //     alert('부모');
+        //     // alert(event.srcElement.id);
+             
+        //     // event.cancelBubble = true;
+        // };
 
-   
-            selColumn.innerHTML += "<option value='" +i+ "'>" + i + "</option>";
-        };
+        // box1.onclick = function(){
+        //     alert('조부모');
+        //     // alert(event.srcElement.id);
+        //     // event.srcElement.style.border = '10px solid black';
+        // };
+
+
+        // box1.addEventListener('click', function(){
+        //     alert('할아버지');
+        // }, true); //true -> 터널링기반으로 동작
+        
+        // box2.addEventListener('click', function(){
+        //     alert('아버지');
+        // }, true);
+        
+        // box3.addEventListener('click', function(){
+        //     alert('나');
+        // }, true);
         
 
-        selColumn.value = 3;
+        // var td = document.getElementsByTagName('td');
 
-        btnCreate.onclick = function(){
-            // 사용자 선택 : 행 x열 -> 테이블 추가 
-            tbody1.innerHTML = ""; // 삭제 (초기화)
+        // for(var i=0; i<td.length; i++){
+        //     td[i].onmouseover = function(){
+        //         event.srcElement.bgColor = 'gold';
+        //     };
+        //     td[i].onmouseout = function(){
+        //         event.srcElement.bgColor = 'transparent';
+        //     };
+        // }
 
-            for(var i=0; i<selRow.value; i++){
-                //행 -> <tr>
-                    var temp = "";
-                    temp += "<tr>";
-                        for(var j=0; j<selColumn.value; j++){
-                            temp += "<td>";
-                            temp += i + ',' +j; //<td>5,2</td>
-                            temp += "</td>";
 
-                        }
-                    temp += "</tr>";
+        // 마우스 이벤트 배경색 바꾸기.
+        // var tr = document.getElementsByTagName('tr');
 
-                    tbody1.innerHTML += temp; // <tr> 동적 추가 
+        // for(var i=0; i<tr.length; i++){
+        //     tr[i].onmouseover = function(){
+        //         // event.srcElement.bgColor = 'gold';
+        //         // event.srcElement.parentNode.bgColor = 'gold';
+        //         event.currentTarget.bgColor = 'tomato';
+        //     };
 
-            }
+        //     tr[i].onmouseout = function(){
+        //         // event.srcElement.bgColor = 'transparent';
+        //         // event.srcElement.parentNode.bgColor = 'transparent';
+        //         event.currentTarget.bgColor = 'transparent';
+        //     };
+        // }
+
+        var td = document.getElementsByTagName('td');
+
+        for(var i=0; i<td.length; i++){
+            td[i].onmousedown = function(){
+
+                // event.srcElement.innerHTML ='<img src="images/rect_icon01.png">';  // 문자열을 대상으로 이벤트 걸수 X
+                // event.srcElement.firstElementChild.onmousedown = function(){}; // 부모를 찾아 자식에게 접근해야함 
+
+
+                if(event.buttons == 1){
+                    var img = document.createElement('img');
+    
+                    img.setAttribute('src', 'images/rect_icon01.png');
+                    event.srcElement.appendChild(img);
+                }else if(event.buttons == 2){
+                    // event.srcElement.removeChild(event.srcElement.firstElementChild);
+                }
+
+                // img.onmousedown = function(){
+                //     //클릭한 이미지를 삭제
+                //     event.srcElement.parentNode.removeChild(event.srcElement);
+                // };
+
+
+
+
+
+
+            };
         }
+
+
+
     </script>
+
+
+
 </body>
 </html>

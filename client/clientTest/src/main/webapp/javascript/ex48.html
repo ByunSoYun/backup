@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 600px;
+            height: 600px;
+            font-weight: bold;
+            font-size: 85px;
+            text-align: center;
+            color: #444444;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table id="tbl">
+        <tbody id="tbody1">
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+      
+	
+	window.onload = function() {
+		
+		var td = document.getElementsByTagName("td");
+		
+		for (var i=0; i<td.length; i++) {
+			
+			td[i].onmousedown = function() {
+								
+				var c = event.srcElement;
+				var n = parseInt(c.innerHTML);
+				
+				if (event.buttons == 1) {
+					n++;
+					c.innerText = n;
+					c.bgColor = "white";
+				} else if (event.buttons == 2) {
+					n--;
+					if (n <= 0) {
+						n = 0;
+						c.bgColor = "#ccc";
+						event.srcElement.onmousedown = null;
+					}
+					c.innerText = n;
+				}
+				
+			};
+			
+		}
+		
+	};
+	
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ex54_style -->
+
+    <h1>뉴스</h1>
+    <fieldset>
+        <button type="button" id="big">크게</button>
+        <button type="button" id="small">작게</button>
+    </fieldset>
+    <p id="content">
+        주말과 겹치는 모든 공휴일에 대해 대체 공휴일을 적용하도록 하는 법안이 29일 국회 본회의를 통과했다. 이로써 하반기 쉴 수 있는 휴일은 다가오는 광복절부터 4일 더 늘어난다.
+
+국회는 이날 오후 본회의를 열고 ‘공휴일에 관한 법률’(이하 대체공휴일법) 제정안을 통과시켰다. 재석 206명 중 찬성 152명, 반대 18명, 기권 36명이다.
+
+제정안에 따르면 공휴일이나 주말과 겹치는 모든 공휴일에 대해 주말 이후의 첫 번째 평일을 대체공휴일로 정한다. 지금까지는 추석과 설, 어린이날에만 대체휴일을 적용했지만, 앞으로는 모든 공휴일로 확대된다.
+
+일요일인 오는 8월15일 광복절부터 적용돼 16일이 대체공휴일이 된다. 여기에 10월3일 개천절(일요일), 9일 한글날(토요일), 12월25일 성탄절(토요일)까지 올해 대체공휴일은 4일이 추가된다.
+
+    </p>
+       <script>
+            var big = document.getElementById('big');
+            var small = document.getElementById('small');
+
+            var content = document.getElementByIdcontent('content');
+
+            big.onclick = function(){
+                //현재크기 ?
+                alert(window.getComputedStyle(content).fontSize);
+                var fontSize = parseInt(window.getComputedStyle(content).fontSize);
+
+                fontSize +=2;
+                
+                content.style.fontSize = fontSize + 'px'
+            }
+
+            small.onclick = function(){
+                //현재크기 ?
+                alert(window.getComputedStyle(content).fontSize);
+                var fontSize = parseInt(window.getComputedStyle(content).fontSize);
+
+                fontSize -=2;
+                
+                content.style.fontSize = fontSize + 'px'
+            }
+        </script>
+    
+</body>
+</html>
