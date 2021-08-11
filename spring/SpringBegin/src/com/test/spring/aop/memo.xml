@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:aop="http://www.springframework.org/schema/aop"
+      xsi:schemaLocation="http://www.springframework.org/schema/beans
+      					  http://www.springframework.org/schema/beans/spring-beans.xsd
+      					  http://www.springframework.org/schema/aop
+      					  http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- memo.xml -->
+
+	<!-- 주업무 객체 -->
+	<bean id="memo" class="com.test.spring.aop.Memo"></bean>
+
+	<!-- 보조업무 객체 -->
+	<bean id="logger" class="com.test.spring.aop.Logger"></bean>
+	<bean id="auth" class="com.test.spring.aop.Auth"></bean>
+
+
+	<!--
+		AOP 설정
+		- 주업무 객체와 보조업무 객체를 연결시키고
+		  어떤 주업무와 어떤 보조업무를 어떤 형태로 결합시킬지 설정한다.
+	-->
+	<aop:config>
+
+		<!-- 역할 부여: 보조 업무 객체를 지정한다. -->
+		<aop:aspect id="loggerAdvice" ref="logger">
+
+			<!--
+				주업무를 지정한다.
+				: 어떤 주업무 객체의 어떤 메소드를 지정할것인지 선택
+				ex) Memo 객체의 add() 메소드 -> 포인트 컷(Point Cut)
+			-->
+
+			<!--
+				포인트 컷 지정하기
+				- AspectJ 표현식을 사용해서 지정한다.
+			-->
+			<aop:pointcut expression="execution(public void com.test.spring.aop.Memo.add(String))" id="m1"/>
+
+
+			<!--
+				logger 보조 업무 객체의 어떤 보조 업무(메소드)와 어떤 주업무(포인트컷)을 어떤 형태로 결합시킬지?
+			-->
+			<aop:after method="log" pointcut-ref="m1" />
+
+
+
+		</aop:aspect>
+
+		<aop:aspect id="authAdvice" ref="auth">
+
+		</aop:aspect>
+
+	</aop:config>
+
+
+</beans>
+
+
+
+
+
+
+
+
+
+
+

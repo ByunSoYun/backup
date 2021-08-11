@@ -112,8 +112,8 @@
             //jQuery 메소드의 패턴
             //1. 전용 함수
             // - 메소드명을 보면 무슨 행동인지 유추가 가능하다.
-            //  a. obj.test()       : getter, 읽기
-            //  b. obj.test(param)  : setter, 쓰기
+            //  a. obj.text()       : getter, 읽기
+            //  b. obj.text(param)  : setter, 쓰기
 
             // alert($('#box3').text());   //1.a
             // alert($('#box3').text("ABC")); //1.b
@@ -165,11 +165,11 @@
             // $('#cat').append('<img src="images/catty06.png">');
 
             //문자열을 가지고 진짜 태그를 만들어서 jQuery 객체로 반환한다.
-            $('#cat').append('<img>').attr('src', 'images/catty07.png')
-                                     . css('opacity', '.5')
-                                     . mouseover(function(){
-                                        $(this).css('opacity', '1');
-                                     });
+            // $('#cat').append('<img>').attr('src', 'images/catty07.png')
+            //                          . css('opacity', '.5')
+            //                          . mouseover(function(){
+            //                             $(this).css('opacity', '1');
+            //                          });
 
         }); //btn1.click
 
@@ -188,10 +188,10 @@
             //DOM 객체 -> jQuery 객체 변환
             // $(this).css('opacity', '.3');
 
-            $(this).css({
-                opacity: .3,
-                transform: 'scale(.5, .5) rotate(45deg)'
-            });
+            // $(this).css({
+            //     opacity: .3,
+            //     transform: 'scale(.5, .5) rotate(45deg)'
+            // });
 
             // document.body (DOM 순수 자바스크립트 객체)-> $() -> jQuery 객체
 

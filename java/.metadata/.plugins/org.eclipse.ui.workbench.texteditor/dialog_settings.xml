@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="서브루틴"/>
+		<item key="selection" value="static"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="true"/>
 		<list key="findhistory">
+			<item value="static"/>
 			<item value="서브루틴"/>
 			<item value="`"/>
 			<item value="다운"/>
@@ -22,7 +23,6 @@
 			<item value="안녕\s?하세요."/>
 			<item value="[A-Za-z_][A-Za-z0-9_]{3,11}"/>
 			<item value="[가-힣]{4,7}"/>
-			<item value="[0123456789]{6}-[0123456789]{7}"/>
 		</list>
 		<list key="replacehistory">
 			<item value="ANONYMOUS_NOTICE_DATA"/>

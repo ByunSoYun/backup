@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form id="form1" method="" action="">
+		<div id="day1">
+			<button>Day 1</button>
+			<input type="hidden">
+			<input type="hidden">
+			<input type="hidden">
+		</div>
+		<div id="day2">
+			<button>Day 2</button>
+			<input type="hidden">
+			<input type="hidden">
+			<input type="hidden">
+		</div>
+		<div id="day3">
+			<button>Day 3</button>
+			<input type="hidden">
+			<input type="hidden">
+			<input type="hidden">
+		</div>
+	</form>
+	<script>
+		데이1버튼.click(function() {
+			$('#day2').remove();
+			$('#day3').remove();
+			$('#form1').submit();
+		});
+		
+		데이2버튼.click(function() {
+			$('#day1').remove();
+			$('#day2').remove();
+			$('#form1').submit();
+		});
+		
+		데이3버튼.click(function() {
+			$('#day1').remove();
+			$('#day2').remove();
+			$('#form1').submit();
+		});
+		
+		데이All버튼.click(function() {
+			$('#form1').submit();
+		});
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
